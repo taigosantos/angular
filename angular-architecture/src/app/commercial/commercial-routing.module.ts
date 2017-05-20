@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { ProductsListComponent } from './products/products-list/products-list.component';
+
 const routes: Routes = [
-  { path: 'products', loadChildren: 'app/commercial/products/products.module#ProductsModule' }
+  { path: 'products', component: ProductsListComponent }
+  //{ path: 'products', loadChildren: 'app/commercial/products/products.module#ProductsModule' }
 ];
 
 @NgModule({
