@@ -10,6 +10,9 @@ import { ProductsFormComponent } from './products-form/products-form.component';
     CommonModule,
     ProductsRoutingModule
   ],
+  exports:[
+    ProductsRoutingModule
+  ],
   declarations: [ProductsListComponent, ProductsFormComponent]
 })
 export class ProductsModule { }
