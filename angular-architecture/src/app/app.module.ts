@@ -5,18 +5,21 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
-import { ProductsModule } from "./commercial/products/products.module";
+ // application modules 
 import { MainModule } from "./main/main.module";
+import { CommercialModule } from './commercial/commercial.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
+    // angular modules
     BrowserModule,
     FormsModule,
     HttpModule,
-    ProductsModule,
+    // application modules
+    CommercialModule,
     MainModule
   ],
   providers: [],
