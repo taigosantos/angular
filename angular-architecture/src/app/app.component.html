@@ -1,12 +1,13 @@
-<div>
-  <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home (Redireciona para Dashboard)</a>
-</div>
-
+<nav>
+  <a routerLink="/">Home (Redireciona para Dashboard)</a>
+  <a routerLink="/rota-desconhecida">Rota Desconhecida</a>
+  <a routerLink="/internal-error">Página de Erro</a>
+</nav>
+<br />
 <nav>
   <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
   <a routerLink="/products" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Listar Produtos</a>
   <a routerLink="/products/new" routerLinkActive="active">Novo Produto</a>
-  <a routerLink="/rota-desconhecida" routerLinkActive="active">Rota Desconhecida</a>
 </nav>
 
 <h1>

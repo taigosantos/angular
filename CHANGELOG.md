@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.4.0
+
+- Adição do suporte à `Lazy Loading`
+- Criação dos módulos `commercial/products`, `main/dashboard`, `main/not-found`, `main/internal-error`
+
 ## 0.3.0
 
 - Adição do suporte à rotas
