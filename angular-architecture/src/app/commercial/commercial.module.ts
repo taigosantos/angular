@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { CommercialRoutingModule } from './commercial-routing.module';
-import { ProductsModule } from './products/products.module';
+//import { ProductsModule } from './products/products.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    CommercialRoutingModule,
-    ProductsModule
+    CommercialRoutingModule
+    //ProductsModule
   ],
   declarations: []
 })
