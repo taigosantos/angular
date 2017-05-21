@@ -3,7 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   { path: 'dashboard', loadChildren: 'app/main/dashboard/dashboard.module#DashboardModule' },
-  { path: '', redirectTo: 'dashboard', pathMatch: 'full' }
+  { path: 'page-not-found', loadChildren: 'app/main/not-found/not-found.module#NotFoundModule' },
+  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+  { path: '**', redirectTo: 'page-not-found', pathMatch: 'full' }
 ];
 
 @NgModule({
