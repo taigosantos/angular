@@ -7,8 +7,8 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 
  // application modules 
-import { MainModule } from "./main/main.module";
 import { CommercialModule } from './commercial/commercial.module';
+import { CoreModule } from "./core/core.module";
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { CommercialModule } from './commercial/commercial.module';
     RouterModule,
     // application modules
     CommercialModule,
-    MainModule
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
