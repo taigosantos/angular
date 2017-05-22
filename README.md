@@ -10,7 +10,7 @@ Segue abaixo as funcionalidades suportadas pela aplicação:
 | :---------------------------------------------------------|:-------------:|
 | Suporte à multi-ambiente (desenvolvimento e produção)     | Concluído     |
 | Suporte a compiladores de estilo SCSS                     | Concluído     |
-| Lazy-Loading                                              | Desenvolvendo |
+| Lazy-Loading                                              | Concluído     |
 | AOT                                                       | Concluído     |
 | Internationalization (i18n)                               | Desenvolvendo |
 | Localization (l10n)                                       | Desenvolvendo |
