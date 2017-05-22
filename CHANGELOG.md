@@ -3,12 +3,13 @@
 ## 0.4.0
 
 - Adição do suporte à `Lazy Loading`
-- Criação dos módulos `commercial/products`, `main/dashboard`, `main/not-found`, `main/internal-error`
+- Criação dos módulos `commercial/products`, `core/dashboard`, `core/not-found`, `core/internal-error`
+- Criação dos componentes de layout `core/page-layout` e `core/panel-layout`
 
 ## 0.3.0
 
 - Adição do suporte à rotas
-- Criação dos módulos `commercial` e `main` como exemplos para a utilização do suporte à rotas
+- Criação dos módulos `commercial` e `core` como exemplos para a utilização do suporte à rotas
 
 ## 0.2.0
 
