@@ -19,11 +19,11 @@ Segue abaixo as funcionalidades suportadas pela aplicação:
 
 ### Aot
 
-Para a utilização da complicação Ahead of Time (AoT), deve-se usar o comando: `ng build --prod --aot` ou `ng serve --prod --aot`
+Para a utilização da compilação Ahead of Time (AoT), deve-se usar o comando: `ng build --prod --aot` ou `ng serve --prod --aot`
 
 ### Custom Environments
 
-A aplicação possui um amiente de Homologação (Stage) que é representado pelo arquivo `environments/environment.stage.ts`
+A aplicação possui um ambiente de Homologação (Stage) que é representado pelo arquivo `environments/environment.stage.ts`
 Para utilização dessa configuração deve-se usar o comando:
 
 Para compilação ou dos arquivos em modo de **desenvolvimento**, sem minificação e utilizando as configurações do ambiente de homologação:
