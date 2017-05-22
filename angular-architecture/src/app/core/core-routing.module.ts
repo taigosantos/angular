@@ -16,8 +16,8 @@ const routes: Routes = [{
   children: [
     { path: 'page-not-found', loadChildren: './not-found/not-found.module#NotFoundModule' },
     { path: 'internal-error', loadChildren: './internal-error/internal-error.module#InternalErrorModule' },
-    { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-    { path: '**', redirectTo: 'page-not-found', pathMatch: 'full' }
+    { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+    { path: '**', redirectTo: 'page-not-found' }
   ]
 }];
 
@@ -29,7 +29,7 @@ const routes: Routes = [{
 // { path: '**', redirectTo: 'page-not-found', pathMatch: 'full' }
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
 export class CoreRoutingModule { }
