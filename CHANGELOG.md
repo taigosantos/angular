@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.4.0
+
+- Adição dos arquivos de linguagem de exemplo: `src/locales/messages.en-US.xlf` e `src/locales/messages.pt-BR.xlf`
+
 ## 0.3.0
 
 - Adição do suporte à rotas

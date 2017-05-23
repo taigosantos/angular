@@ -36,3 +36,13 @@ Para compilação dos arquivos em modo de **produção**, com minificação e ut
 ```
 ng build --prod -e stage
 ```
+
+### Internationalization (i18n)
+
+O padrão de formato de arquivos de tradução utilizado será o `XLIFF (.xlf)` por ser mais completo e também ser o padrão de arquivos de tradução do Angular.
+
+Os arquivos de linguagens são hospedados no caminho `./src/locales` e o comando para gerar ou atualizar os arquivos de linguagem é:
+
+```
+ng xi18n --output-path src/locales
+```
