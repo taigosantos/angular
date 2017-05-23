@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="f65253954b66e929a8b4d5ecaf61f9129f8cec64" datatype="html">
         <source>Dashboard</source>
-        <target/>
+        <target>Dashboard</target>
         <context-group purpose="location">
           <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -12,7 +12,7 @@
       </trans-unit>
       <trans-unit id="65cc4ab3b4c438e07c89be2b677d08369fb62da2" datatype="html">
         <source>Welcome</source>
-        <target/>
+        <target>Bem Vindo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -20,7 +20,7 @@
       </trans-unit>
       <trans-unit id="78e64c2b4cc73e0d8391e3168456178a9ff1ff53" datatype="html">
         <source>This is the initial application page</source>
-        <target/>
+        <target>Esta é a página inicial da aplicação</target>
         <context-group purpose="location">
           <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
           <context context-type="linenumber">4</context>
