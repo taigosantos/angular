@@ -46,3 +46,15 @@ Os arquivos de linguagens são hospedados no caminho `./src/locales` e o comando
 ```
 ng xi18n --output-path src/locales
 ```
+
+Testando a aplicação em **pt-BR**:
+
+```
+ng serve --aot --i18n-file=src/locales/messages.pt-BR.xlf --locale=pt-BR
+```
+
+Gerando a versão de produção em **pt-BR**:
+
+```
+ng build --output-path=dist/pt-br --aot -prod --bh /pt-br/ --i18n-file=src/locales/messages.pt-BR.xlf --locale=pt-BR
+```
