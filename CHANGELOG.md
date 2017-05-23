@@ -3,6 +3,7 @@
 ## 0.4.0
 
 - Adição dos arquivos de linguagem de exemplo: `src/locales/messages.en-US.xlf` e `src/locales/messages.pt-BR.xlf`
+- Adição do suporte à internationalization (i18n)
 
 ## 0.3.0
 
@@ -14,8 +15,8 @@
 
 ## 0.2.0
 
-- Adição do novo ambiente de desenvolvimento `Homologação (environment.stage.ts)`
-- Adição e suporte à testes com diferentes ambientes `Devenvolvimento (dev)`, `Homologação (stage)` e `Produção (prod)`
+- Adição do novo ambiente de desenvolvimento `Homologação (environment.stag.ts)`
+- Adição e suporte à testes com diferentes ambientes `Devenvolvimento (dev)`, `Homologação (stag)` e `Produção (prod)`
 
 ## 0.1.0
 
