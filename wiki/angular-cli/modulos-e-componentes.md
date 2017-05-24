@@ -21,4 +21,3 @@ Exemplo 2: criando um módulo *products-form* dentro do módulo *products*:
 ```bash
 ng g c commercial/products/products-form -m commercial/products/products.module.ts
 ```
-
