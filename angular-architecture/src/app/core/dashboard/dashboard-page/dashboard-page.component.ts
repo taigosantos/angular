@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardPageComponent implements OnInit {
 
-  constructor() { }
+  public currentDate: Date;
+  public money: Number;
+  public rate: Number;
+
+  constructor() {
+    this.currentDate = new Date();
+    this.money = 1345756.49;
+    this.rate = 3.5;
+  }
 
   ngOnInit() {
   }
