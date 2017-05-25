@@ -37,3 +37,14 @@ Para compilação dos arquivos em modo de **produção**, com minificação e ut
 ```bash
 ng build --prod -e stag
 ```
+
+# Internationalization e Localization
+
+Foi criado um arquivo `index.html` responsável por detectar a linguagem do browser e redirecionar o usuário para a aplicação de sua linguagem padrão.
+O arquivo se encontra na pasta `samples/sample-index-detect-browser-language/index.html` e também possui uma versão minificada `index.min.html`.
+
+Ao usar o arquivo `index.min.html`, renomear para `index.html` e coloca-lo na raiz do diretório de produção.
+
+# Hospedando a aplicação em servidores IIS
+
+Copiar o arquivo `web.config` localizado em `samples/sample-iis-config-file/web.config` e colocar na raiz do diretório de produção.
