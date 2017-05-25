@@ -12,27 +12,9 @@ Segue abaixo as funcionalidades suportadas pela aplicação:
 | Suporte a compiladores de estilo SCSS                     | Concluído     |
 | Lazy-Loading                                              | Concluído     |
 | AOT                                                       | Concluído     |
-| Internationalization (i18n)                               | Desenvolvendo |
-| Localization (l10n)                                       | Desenvolvendo |
+| Internationalization (i18n)                               | Concluído     |
+| Localization (l10n)                                       | Concluído     |
 
-## Considerações
+## Wiki
 
-### Aot
-
-Para a utilização da compilação Ahead of Time (AoT), deve-se usar o comando: `ng build --prod --aot` ou `ng serve --prod --aot`
-
-### Custom Environments
-
-A aplicação possui um ambiente de Homologação (Stage) que é representado pelo arquivo `environments/environment.stage.ts`
-Para utilização dessa configuração deve-se usar o comando:
-
-Para compilação ou dos arquivos em modo de **desenvolvimento**, sem minificação e utilizando as configurações do ambiente de homologação:
-```
-ng build -e stage
-```
-
-Para compilação dos arquivos em modo de **produção**, com minificação e utilizando as configurações do ambiente de homologação:
-
-```
-ng build --prod -e stage
-```
+Dicas e tutoriais para utilizar a aplicação pode ser encontrada na [Wiki](wiki/indice.md)

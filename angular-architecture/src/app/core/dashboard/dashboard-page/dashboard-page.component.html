@@ -1,3 +1,10 @@
-<p>
-  dashboard-page works!
-</p>
+<h1 i18n>Dashboard</h1>
+
+<h2 i18n>Welcome</h2>
+<p i18n>This is the initial application page</p>
+
+<h3>Localization Sample</h3>
+
+<p>Current Date: {{ currentDate | date }}</p>
+<p>Money: {{ money | currency:'BRL':true }}</p>
+<p>Rate: {{ rate | number }}</p>
