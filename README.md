@@ -15,3 +15,6 @@ Segue abaixo as funcionalidades suportadas pela aplicação:
 | Internationalization (i18n)                               | Desenvolvendo |
 | Localization (l10n)                                       | Desenvolvendo |
 
+## Wiki
+
+Dicas e tutoriais para utilizar a aplicação pode ser encontrada na [Wiki](wiki/indice.md)
