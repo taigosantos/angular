@@ -12,8 +12,8 @@ Segue abaixo as funcionalidades suportadas pela aplicação:
 | Suporte a compiladores de estilo SCSS                     | Concluído     |
 | Lazy-Loading                                              | Concluído     |
 | AOT                                                       | Concluído     |
-| Internationalization (i18n)                               | Desenvolvendo |
-| Localization (l10n)                                       | Desenvolvendo |
+| Internationalization (i18n)                               | Concluído     |
+| Localization (l10n)                                       | Concluído     |
 
 ## Wiki
 
