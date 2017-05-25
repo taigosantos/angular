@@ -4,6 +4,7 @@
 
 - Adição dos arquivos de linguagem de exemplo: `src/locales/messages.en-US.xlf` e `src/locales/messages.pt-BR.xlf`
 - Adição do suporte à internationalization (i18n)
+- Adição do suporte à localization (l10n)
 
 ## 0.3.0
 
