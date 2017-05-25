@@ -45,6 +45,8 @@ O arquivo se encontra na pasta `samples/sample-index-detect-browser-language/ind
 
 Ao usar o arquivo `index.min.html`, renomear para `index.html` e coloca-lo na raiz do diretório de produção.
 
+A ferramenta recomendada para editar os arquivos `XLIFF` é a [Virtaal](https://github.com/translate/virtaal)
+
 # Hospedando a aplicação em servidores IIS
 
 Copiar o arquivo `web.config` localizado em `samples/sample-iis-config-file/web.config` e colocar na raiz do diretório de produção.

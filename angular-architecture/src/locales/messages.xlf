@@ -2,11 +2,65 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="d571770cd0e2cd7fb174bd32e9d32c1cde64b513" datatype="html">
+        <source>HOME_NAVIGATION_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Home navigation link</note>
+      </trans-unit>
+      <trans-unit id="8c074627413d5bf88e1e3f62d689f7cd00ae23af" datatype="html">
+        <source>UNKNOWN_ROUTE_NAVIGATION_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">Home navigation link</note>
+      </trans-unit>
+      <trans-unit id="61a208ca47b93bce5aba1288c763b783de682aee" datatype="html">
+        <source>INTERNAL_ERROR_ROUTE_NAVIGATION_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">Internal error route navigation link</note>
+      </trans-unit>
+      <trans-unit id="69d72699f4cbcdbda855de54530fdba41e6d775a" datatype="html">
+        <source>DASHBOARD_ROUTE_NAVIGATOIN_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Dashboard route navigation link</note>
+      </trans-unit>
+      <trans-unit id="dbddcc8ebd65ce5c9e65fc0cbc4f5a6216a49960" datatype="html">
+        <source>PRODUCTS_LIST_NAVIGATION_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">Products list navigation link</note>
+      </trans-unit>
+      <trans-unit id="6f29ad43f973c19efeb2aa3911ed287bd2baa672" datatype="html">
+        <source>NEW_PRODUCT_NAVIGATION_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">New product navigation link</note>
+      </trans-unit>
       <trans-unit id="f65253954b66e929a8b4d5ecaf61f9129f8cec64" datatype="html">
         <source>Dashboard</source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
@@ -14,7 +68,7 @@
         <source>Welcome</source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
@@ -22,7 +76,7 @@
         <source>This is the initial application page</source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
