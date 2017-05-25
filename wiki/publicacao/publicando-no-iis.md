@@ -2,16 +2,16 @@
 
 Para configurar o servidor IIS para rodar a aplicação em Angular, deve-se executar os seguintes passos:
 
-1. Instalar o módulo **Microsoft URL Rewrite Module** no servidor.
+1 - Instalar o módulo **Microsoft URL Rewrite Module** no servidor.
 
-2. Criar um arquivo **web.config** com as seguintes configurações de regras:
+2 - Criar um arquivo **web.config** com as seguintes configurações de regras:
 
 ```xml
 <configuration>
   <system.webServer>
     <rewrite>
       <rules>
-        <rule name="AngularJS" stopProcessing="true">
+        <rule name="Angular" stopProcessing="true">
           <match url=".*" />
           <conditions logicalGrouping="MatchAll">
             <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
@@ -25,7 +25,7 @@ Para configurar o servidor IIS para rodar a aplicação em Angular, deve-se exec
 </configuration>
 ```
 
-3. Caso esteja usando a opção de aplicação multi-linguagem, as regras precisam ser divididas para cada linguagem:
+3 - Caso esteja usando a opção de aplicação multi-linguagem, as regras precisam ser divididas para cada linguagem:
 
 ```xml
 <configuration>
@@ -53,3 +53,7 @@ Para configurar o servidor IIS para rodar a aplicação em Angular, deve-se exec
   </system.webServer>
 </configuration>
 ```
+
+## Bonus
+
+Para facilitar, pode copiar o arquivo pronto `web.config` ou `web.multi-language.config` (renomear este para web.config) ambos localizados no diretório `samples/sample-iis-config-file/` e colocar na raiz do diretório de produção.
