@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 
 // application modules
 import { CommercialModule } from './commercial/commercial.module';
+import { SamplesModule } from './samples/samples.module';
 import { CoreModule } from './core/core.module';
 
 // application components
@@ -25,6 +26,7 @@ import { AppComponent } from './app.component';
 
     // application modules
     CommercialModule,
+    SamplesModule,
     CoreModule
 
   ],
