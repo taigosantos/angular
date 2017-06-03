@@ -12,4 +12,4 @@ import { PageLayoutComponent } from './page-layout/page-layout.component';
   ],
   declarations: [PanelLayoutComponent, PageLayoutComponent]
 })
-export class CoreModule { }
+export class CoreModule {}

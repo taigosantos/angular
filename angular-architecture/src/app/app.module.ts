@@ -4,25 +4,31 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
-import { AppComponent } from './app.component';
-
- // application modules 
+// application modules
 import { CommercialModule } from './commercial/commercial.module';
-import { CoreModule } from "./core/core.module";
+import { SamplesModule } from './samples/samples.module';
+import { CoreModule } from './core/core.module';
+
+// application components
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
+
     // angular modules
     BrowserModule,
     FormsModule,
     HttpModule,
     RouterModule,
+
     // application modules
     CommercialModule,
+    SamplesModule,
     CoreModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

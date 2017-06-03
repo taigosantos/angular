@@ -11,12 +11,21 @@
         </context-group>
         <note priority="1" from="description">Home navigation link</note>
       </trans-unit>
+      <trans-unit id="44bc966d35ec9b5a6e092ef98d2d03dd7158b0da" datatype="html">
+        <source>SAMPLES_NAVIGATION_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">Samples link</note>
+      </trans-unit>
       <trans-unit id="8c074627413d5bf88e1e3f62d689f7cd00ae23af" datatype="html">
         <source>UNKNOWN_ROUTE_NAVIGATION_LINK</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">8</context>
         </context-group>
         <note priority="1" from="description">Home navigation link</note>
       </trans-unit>
@@ -25,7 +34,7 @@
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">8</context>
+          <context context-type="linenumber">9</context>
         </context-group>
         <note priority="1" from="description">Internal error route navigation link</note>
       </trans-unit>
@@ -34,7 +43,7 @@
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">13</context>
         </context-group>
         <note priority="1" from="description">Dashboard route navigation link</note>
       </trans-unit>
@@ -43,7 +52,7 @@
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">14</context>
         </context-group>
         <note priority="1" from="description">Products list navigation link</note>
       </trans-unit>
@@ -52,9 +61,36 @@
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">15</context>
         </context-group>
         <note priority="1" from="description">New product navigation link</note>
+      </trans-unit>
+      <trans-unit id="f79365a2535307cc4699c4c2e70cea6e02f1833f" datatype="html">
+        <source>SAMPLES_LAYOUT_HOME_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Localization Home Link</note>
+      </trans-unit>
+      <trans-unit id="4045fa864cbb941d9fa7bf8ff533e1158400ef19" datatype="html">
+        <source>SAMPLES_LAYOUT_LOCALIZATION_SUPPORT_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">Localization Support Link</note>
+      </trans-unit>
+      <trans-unit id="5e9b4be4b3f9ea79f7dab50c6efa7ad4392640ce" datatype="html">
+        <source>SAMPLES_LAYOUT_BACK_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Back Link</note>
       </trans-unit>
       <trans-unit id="f65253954b66e929a8b4d5ecaf61f9129f8cec64" datatype="html">
         <source>Dashboard</source>

@@ -4,16 +4,12 @@
   "license": "MIT",
   "scripts": {
     "i18n": "ng xi18n --output-path src/locales",
-    
     "dev:pt-br": "ng serve --aot --i18n-file=src/locales/messages.pt-BR.xlf --locale=pt-BR",
     "dev:en-us": "ng serve --aot --i18n-file=src/locales/messages.en-US.xlf --locale=en-US",
-
     "prod:pt-br": "ng serve --prod --aot --i18n-file=src/locales/messages.pt-BR.xlf --locale=pt-BR",
     "prod:en-us": "ng serve --prod --aot --i18n-file=src/locales/messages.en-US.xlf --locale=en-US",
-
-    "build:pt-br":"ng build --output-path=dist/pt-br --aot -prod --bh /pt-br/ --i18n-file=src/locales/messages.pt-BR.xlf --locale=pt-BR",
-    "build:en-us":"ng build --output-path=dist/en-us --aot -prod --bh /en-us/ --i18n-file=src/locales/messages.en-US.xlf --locale=en-US",
-
+    "build:pt-br": "ng build --output-path=dist/pt-br --aot -prod --bh /pt-br/ --i18n-file=src/locales/messages.pt-BR.xlf --locale=pt-BR",
+    "build:en-us": "ng build --output-path=dist/en-us --aot -prod --bh /en-us/ --i18n-file=src/locales/messages.en-US.xlf --locale=en-US",
     "build": "npm run build:pt-br && npm run build:en-us",
     "start": "npm run dev:pt-br"
   },
@@ -29,6 +25,8 @@
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
+    "mdi": "^1.9.33",
+    "ng2-materialize": "^1.4.1",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },
