@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.5.0
+
+- Adição dos scripts personalizados no arquivo `package.json`
+
 ## 0.4.0
 
 - Adição dos arquivos de linguagem de exemplo: `src/locales/messages.en-US.xlf` e `src/locales/messages.pt-BR.xlf`
