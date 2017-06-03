@@ -14,6 +14,11 @@ Segue abaixo as funcionalidades suportadas pela aplicação:
 | AOT                                                       | Concluído     |
 | Internationalization (i18n)                               | Concluído     |
 | Localization (l10n)                                       | Concluído     |
+| Suporta à UI Materialize                                  | Concluído     |
+
+## Bibliotecas de Terceiros
+
+[ng2-materialize](https://sherweb.github.io/ng2-materialize)
 
 ## Wiki
 
