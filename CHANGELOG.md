@@ -3,6 +3,7 @@
 ## 0.5.0
 
 - Adição dos scripts personalizados no arquivo `package.json`
+- Adição do suporte à biblioteca UI [ng2-materialize](https://sherweb.github.io/ng2-materialize)
 
 ## 0.4.0
 
