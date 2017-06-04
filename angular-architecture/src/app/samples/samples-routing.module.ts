@@ -8,6 +8,8 @@ const routes: Routes = [{
   component: SamplesLayoutComponent,
   children: [
     { path: 'localization-support', loadChildren: './localization-support/localization-support.module#LocalizationSupportModule' },
+    { path: 'materialize-support', loadChildren: './materialize-support/materialize-support.module#MaterializeSupportModule' },
+    { path: 'font-awesome-support', loadChildren: './font-awesome-support/font-awesome-support.module#FontAwesomeSupportModule' },
     { path: '', loadChildren: './home/home.module#HomeModule' }
   ]
 }];

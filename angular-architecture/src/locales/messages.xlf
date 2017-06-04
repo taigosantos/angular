@@ -72,25 +72,62 @@
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
           <context context-type="linenumber">6</context>
         </context-group>
-        <note priority="1" from="description">Localization Home Link</note>
+      </trans-unit>
+      <trans-unit id="1de0f5128c984df6fb87ffca6fd0d0f6a2245fa4" datatype="html">
+        <source>SAMPLES_LAYOUT_FONT_AWESOME_SUPPORT_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="4045fa864cbb941d9fa7bf8ff533e1158400ef19" datatype="html">
         <source>SAMPLES_LAYOUT_LOCALIZATION_SUPPORT_LINK</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">8</context>
         </context-group>
-        <note priority="1" from="description">Localization Support Link</note>
+      </trans-unit>
+      <trans-unit id="bc1157140a314680ee5c7f42f1798dd8f2977e72" datatype="html">
+        <source>SAMPLES_LAYOUT_MATERIALIZE_SUPPORT_FORMS_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40e9c7f7f81e73200772944d1fcea6814f96bd3c" datatype="html">
+        <source>SAMPLES_LAYOUT_MATERIALIZE_SUPPORT_ICONS_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="546ac5488155362f9fec03d4f212be987683adcb" datatype="html">
+        <source>SAMPLES_LAYOUT_MATERIALIZE_SUPPORT_LAYOUT_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8f094d00db0c72898c3638c5aed065b9cd33d8b1" datatype="html">
+        <source>SAMPLES_LAYOUT_MATERIALIZE_SUPPORT_MODAL_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5e9b4be4b3f9ea79f7dab50c6efa7ad4392640ce" datatype="html">
         <source>SAMPLES_LAYOUT_BACK_LINK</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">17</context>
         </context-group>
-        <note priority="1" from="description">Back Link</note>
       </trans-unit>
       <trans-unit id="f65253954b66e929a8b4d5ecaf61f9129f8cec64" datatype="html">
         <source>Dashboard</source>

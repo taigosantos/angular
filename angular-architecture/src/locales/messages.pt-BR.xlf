@@ -10,12 +10,14 @@
         <note priority="1" from="description">Home navigation link</note>
       <note>Home navigation link</note></trans-unit>
       <trans-unit id="44bc966d35ec9b5a6e092ef98d2d03dd7158b0da" datatype="html" approved="yes">
-        <source>SAMPLES_NAVIGATION_LINK</source> <target state="translated">Exemplos</target> <context-group purpose="location">
+        <source>SAMPLES_NAVIGATION_LINK</source>
+        <target state="translated">Exemplos</target>
+        <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
           <context context-type="linenumber">7</context>
         </context-group>
         <note priority="1" from="description">Samples link</note>
-      </trans-unit>
+      <note>Samples link</note></trans-unit>
       <trans-unit id="8c074627413d5bf88e1e3f62d689f7cd00ae23af" datatype="html" approved="yes">
         <source>UNKNOWN_ROUTE_NAVIGATION_LINK</source>
         <target state="translated">Rota Desconhecida</target>
@@ -68,23 +70,50 @@
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
           <context context-type="linenumber">6</context>
         </context-group>
-        <note priority="1" from="description">Localization Home Link</note>
       <note>Localization Home Link</note></trans-unit>
-      <trans-unit id="4045fa864cbb941d9fa7bf8ff533e1158400ef19" datatype="html" approved="yes">
-        <source>SAMPLES_LAYOUT_LOCALIZATION_SUPPORT_LINK</source> <target state="translated">Exemplos de Localização</target> <context-group purpose="location">
+      <trans-unit id="1de0f5128c984df6fb87ffca6fd0d0f6a2245fa4" datatype="html" approved="yes">
+        <source>SAMPLES_LAYOUT_FONT_AWESOME_SUPPORT_LINK</source> <target state="translated">Font-Awesome</target> <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
           <context context-type="linenumber">7</context>
         </context-group>
-        <note priority="1" from="description">Localization Support Link</note>
+      </trans-unit>
+      <trans-unit id="4045fa864cbb941d9fa7bf8ff533e1158400ef19" datatype="html" approved="yes">
+        <source>SAMPLES_LAYOUT_LOCALIZATION_SUPPORT_LINK</source> <target state="translated">Exemplos de Localização</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
       <note>Localization Support Link</note></trans-unit>
+      <trans-unit id="bc1157140a314680ee5c7f42f1798dd8f2977e72" datatype="html" approved="yes">
+        <source>SAMPLES_LAYOUT_MATERIALIZE_SUPPORT_FORMS_LINK</source> <target state="translated">Materialize Forms</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40e9c7f7f81e73200772944d1fcea6814f96bd3c" datatype="html" approved="yes">
+        <source>SAMPLES_LAYOUT_MATERIALIZE_SUPPORT_ICONS_LINK</source> <target state="translated">Materialize Icons</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="546ac5488155362f9fec03d4f212be987683adcb" datatype="html" approved="yes">
+        <source>SAMPLES_LAYOUT_MATERIALIZE_SUPPORT_LAYOUT_LINK</source> <target state="translated">Materialize Layout</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8f094d00db0c72898c3638c5aed065b9cd33d8b1" datatype="html" approved="yes">
+        <source>SAMPLES_LAYOUT_MATERIALIZE_SUPPORT_MODAL_LINK</source> <target state="translated">Materialize Modal</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="5e9b4be4b3f9ea79f7dab50c6efa7ad4392640ce" datatype="html" approved="yes">
         <source>SAMPLES_LAYOUT_BACK_LINK</source>
         <target state="translated">Voltar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">17</context>
         </context-group>
-        <note priority="1" from="description">Back Link</note>
       <note>Back Link</note></trans-unit>
       <trans-unit id="f65253954b66e929a8b4d5ecaf61f9129f8cec64" datatype="html" approved="yes">
         <source>Dashboard</source>
