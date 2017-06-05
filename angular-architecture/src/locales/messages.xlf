@@ -2,68 +2,46 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="d571770cd0e2cd7fb174bd32e9d32c1cde64b513" datatype="html">
-        <source>HOME_NAVIGATION_LINK</source>
+      <trans-unit id="abb12ac8e10680e5629e313b3d79ccb5cee2cea9" datatype="html">
+        <source>APPLICATION_NAME</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="linenumber">3</context>
         </context-group>
-        <note priority="1" from="description">Home navigation link</note>
       </trans-unit>
       <trans-unit id="44bc966d35ec9b5a6e092ef98d2d03dd7158b0da" datatype="html">
         <source>SAMPLES_NAVIGATION_LINK</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">6</context>
         </context-group>
         <note priority="1" from="description">Samples link</note>
-      </trans-unit>
-      <trans-unit id="8c074627413d5bf88e1e3f62d689f7cd00ae23af" datatype="html">
-        <source>UNKNOWN_ROUTE_NAVIGATION_LINK</source>
-        <target/>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-        <note priority="1" from="description">Home navigation link</note>
-      </trans-unit>
-      <trans-unit id="61a208ca47b93bce5aba1288c763b783de682aee" datatype="html">
-        <source>INTERNAL_ERROR_ROUTE_NAVIGATION_LINK</source>
-        <target/>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-        <note priority="1" from="description">Internal error route navigation link</note>
-      </trans-unit>
-      <trans-unit id="69d72699f4cbcdbda855de54530fdba41e6d775a" datatype="html">
-        <source>DASHBOARD_ROUTE_NAVIGATOIN_LINK</source>
-        <target/>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-        <note priority="1" from="description">Dashboard route navigation link</note>
       </trans-unit>
       <trans-unit id="dbddcc8ebd65ce5c9e65fc0cbc4f5a6216a49960" datatype="html">
         <source>PRODUCTS_LIST_NAVIGATION_LINK</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">7</context>
         </context-group>
-        <note priority="1" from="description">Products list navigation link</note>
       </trans-unit>
       <trans-unit id="6f29ad43f973c19efeb2aa3911ed287bd2baa672" datatype="html">
         <source>NEW_PRODUCT_NAVIGATION_LINK</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">8</context>
         </context-group>
-        <note priority="1" from="description">New product navigation link</note>
+      </trans-unit>
+      <trans-unit id="d571770cd0e2cd7fb174bd32e9d32c1cde64b513" datatype="html">
+        <source>HOME_NAVIGATION_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="f79365a2535307cc4699c4c2e70cea6e02f1833f" datatype="html">
         <source>SAMPLES_LAYOUT_HOME_LINK</source>
@@ -151,6 +129,22 @@
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
           <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c074627413d5bf88e1e3f62d689f7cd00ae23af" datatype="html">
+        <source>UNKNOWN_ROUTE_NAVIGATION_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="61a208ca47b93bce5aba1288c763b783de682aee" datatype="html">
+        <source>INTERNAL_ERROR_ROUTE_NAVIGATION_LINK</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
+          <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
     </body>

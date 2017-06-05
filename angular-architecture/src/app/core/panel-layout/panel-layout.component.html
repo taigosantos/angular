@@ -1,18 +1,25 @@
-<h1>
-  Panel Layout
-</h1>
-
 <nav>
-  <a routerLink="/" i18n="Home navigation link">HOME_NAVIGATION_LINK</a>
-  <a routerLink="/samples" i18n="Samples link">SAMPLES_NAVIGATION_LINK</a>
-  <a routerLink="/unknown-route"  i18n="Home navigation link">UNKNOWN_ROUTE_NAVIGATION_LINK</a>
-  <a routerLink="/internal-error" i18n="Internal error route navigation link">INTERNAL_ERROR_ROUTE_NAVIGATION_LINK</a>
-</nav>
-<br />
-<nav>
-  <a routerLink="/dashboard" routerLinkActive="active" i18n="Dashboard route navigation link">DASHBOARD_ROUTE_NAVIGATOIN_LINK</a>
-  <a routerLink="/products" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" i18n="Products list navigation link">PRODUCTS_LIST_NAVIGATION_LINK</a>
-  <a routerLink="/products/new" routerLinkActive="active" i18n="New product navigation link">NEW_PRODUCT_NAVIGATION_LINK</a>
+  <div class="nav-wrapper">
+    <a routerLink="/" class="left brand-logo">Logo</a>
+    <ul class="right">
+      <li><a routerLink="/samples" i18n="Samples link">SAMPLES_NAVIGATION_LINK</a></li>
+      <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><a routerLink="/products" i18n>PRODUCTS_LIST_NAVIGATION_LINK</a></li>
+      <li routerLinkActive="active"><a routerLink="/products/new" i18n>NEW_PRODUCT_NAVIGATION_LINK</a></li>
+    </ul>
+  </div>
 </nav>
 
-<router-outlet></router-outlet>
+<div class="row">
+
+  <div id="main-menu" class="col s12 m4 l3 xl2 teal full-height">
+    <ul>
+      <li><a routerLink="/unknown-route" i18n>UNKNOWN_ROUTE_LINK</a></li>
+      <li><a routerLink="/internal-error" i18n>INTERNAL_ERROR_ROUTE_LINK</a></li>
+    </ul>
+  </div>
+
+  <div id="main-content" class="col s12 m8 l9 xl10 teal lighten-5 full-height">
+    <router-outlet></router-outlet>
+  </div>
+
+</div>
