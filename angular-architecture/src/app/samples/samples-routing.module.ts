@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { SamplesLayoutComponent } from './samples-layout/samples-layout.component';
+import { SamplesLayoutComponent } from './../shared/components/samples-layout/samples-layout.component';
 
 const routes: Routes = [{
   path: 'samples',

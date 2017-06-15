@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { PageLayoutComponent } from './page-layout/page-layout.component';
-import { PanelLayoutComponent } from './panel-layout/panel-layout.component';
+import { PageLayoutComponent } from './../shared/components/page-layout/page-layout.component';
+import { PanelLayoutComponent } from './../shared/components/panel-layout/panel-layout.component';
 
 const routes: Routes = [{
   path: 'dashboard',

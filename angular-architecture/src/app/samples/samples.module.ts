@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { SharedModule } from './../shared/shared.module';
 import { SamplesRoutingModule } from './samples-routing.module';
-import { SamplesLayoutComponent } from './samples-layout/samples-layout.component';
 
 @NgModule({
   imports: [
-    CommonModule,
+    SharedModule,
     SamplesRoutingModule
   ],
-  declarations: [SamplesLayoutComponent]
+  declarations: []
 })
 export class SamplesModule { }

@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
+import { SharedModule } from './../../shared/shared.module';
 import { InternalErrorRoutingModule } from './internal-error-routing.module';
+
 import { InternalErrorPageComponent } from './internal-error-page/internal-error-page.component';
 
 @NgModule({
   imports: [
-    CommonModule,
+    SharedModule,
     InternalErrorRoutingModule
   ],
   declarations: [InternalErrorPageComponent]
