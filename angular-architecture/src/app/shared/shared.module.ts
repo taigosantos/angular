@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -9,7 +10,8 @@ import { PageLayoutComponent } from './components/page-layout/page-layout.compon
 @NgModule({
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    RouterModule
   ],
   declarations: [
     PageLayoutComponent,
@@ -19,6 +21,7 @@ import { PageLayoutComponent } from './components/page-layout/page-layout.compon
   exports: [
     CommonModule,
     FormsModule,
+    RouterModule,
     PageLayoutComponent,
     PanelLayoutComponent,
     SamplesLayoutComponent
