@@ -10,7 +10,7 @@ const routes: Routes = [{
     { path: 'localization-support', loadChildren: './localization-support/localization-support.module#LocalizationSupportModule' },
     { path: 'materialize-support', loadChildren: './materialize-support/materialize-support.module#MaterializeSupportModule' },
     { path: 'font-awesome-support', loadChildren: './font-awesome-support/font-awesome-support.module#FontAwesomeSupportModule' },
-    { path: '', loadChildren: './home/home.module#HomeModule' }
+    { path: '', loadChildren: './samples-home/samples-home.module#SamplesHomeModule' }
   ]
 }];
 
