@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.6.0
+
+- Adição do módulo `SharedModule`, módulo reponsável por compartilhar components, modules, pipes, services e directives comuns entre os outros módulos.
+- Organização do Layout da aplicação
+
 ## 0.5.0
 
 - Adição dos scripts personalizados no arquivo `package.json`
