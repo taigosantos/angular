@@ -2,8 +2,9 @@
 
 ## 0.6.0
 
-- Adição do módulo `SharedModule`, módulo reponsável por compartilhar components, modules, pipes, services e directives comuns entre os outros módulos.
+- Adição do módulo `SharedModule`, módulo reponsável por compartilhar components, modules, pipes, services e directives comuns entre os outros módulos
 - Organização do Layout da aplicação
+- Atualização nas variáveis de internationalization (i18n)
 
 ## 0.5.0
 
