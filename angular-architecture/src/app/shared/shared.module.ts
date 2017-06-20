@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { SamplesLayoutComponent } from './components/samples-layout/samples-layout.component';
 import { PanelLayoutComponent } from './components/panel-layout/panel-layout.component';
 import { PageLayoutComponent } from './components/page-layout/page-layout.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { PageLayoutComponent } from './components/page-layout/page-layout.compon
   declarations: [
     PageLayoutComponent,
     PanelLayoutComponent,
-    SamplesLayoutComponent
+    SamplesLayoutComponent,
+    HeaderComponent
   ],
   exports: [
     CommonModule,

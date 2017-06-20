@@ -1,13 +1,21 @@
-<nav>
-  <a routerLink="/samples" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" i18n>HOME_NAVIGATION_LINK</a>
-  <a routerLink="/samples/font-awesome-support" routerLinkActive="active" i18n>FONT_AWESOME_SUPPORT_NAVIGATION_LINK</a>
-  <a routerLink="/samples/localization-support" routerLinkActive="active" i18n>LOCALIZATION_SUPPORT_NAVIGATION_LINK</a>
-  <a routerLink="/samples/materialize-support/forms" routerLinkActive="active" i18n>MATERIALIZE_SUPPORT_FORMS_NAVIGATION_LINK</a>
-  <a routerLink="/samples/materialize-support/icons" routerLinkActive="active" i18n>MATERIALIZE_SUPPORT_ICONS_NAVIGATION_LINK</a>
-  <a routerLink="/samples/materialize-support/layout" routerLinkActive="active" i18n>MATERIALIZE_SUPPORT_LAYOUT_NAVIGATION_LINK</a>
-  <a routerLink="/samples/materialize-support/modal" routerLinkActive="active" i18n>MATERIALIZE_SUPPORT_MODAL_NAVIGATION_LINK</a>
-</nav>
+<app-header></app-header>
 
-<router-outlet></router-outlet>
+<div class="row">
 
-<a routerLink="/" i18n>BACK_NAVIGATION_LINK</a>
+    <div id="main-menu" class="col s12 m4 l3 xl2 teal full-height">
+        <ul>
+            <li><a routerLink="/samples" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" i18n>HOME_TITLE</a></li>
+            <li><a routerLink="/samples/font-awesome-support" routerLinkActive="active">Font Awesome Icons</a></li>
+            <li><a routerLink="/samples/localization-support" routerLinkActive="active">Localization</a></li>
+            <li><a routerLink="/samples/materialize-support/forms" routerLinkActive="active">Materialize Forms</a></li>
+            <li><a routerLink="/samples/materialize-support/icons" routerLinkActive="active">Materialize Icons</a></li>
+            <li><a routerLink="/samples/materialize-support/layout" routerLinkActive="active">Materialize Layout</a></li>
+            <li><a routerLink="/samples/materialize-support/modal" routerLinkActive="active">Materialize Modal</a></li>
+        </ul>
+    </div>
+
+    <div id="main-content" class="col s12 m8 l9 xl10 teal lighten-5 full-height">
+        <router-outlet></router-outlet>
+    </div>
+
+</div>

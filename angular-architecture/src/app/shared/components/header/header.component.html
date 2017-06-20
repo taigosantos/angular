@@ -1,0 +1,10 @@
+<nav>
+    <div class="nav-wrapper">
+        <a routerLink="/" class="left brand-logo">Logo</a>
+        <ul class="right">
+            <li routerLinkActive="active"><a routerLink="/samples" i18n>SAMPLES_TITLE</a></li>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><a routerLink="/products" i18n>PRODUCTS_LIST_TITLE</a></li>
+            <li routerLinkActive="active"><a routerLink="/products/new" i18n>PRODUCTS_FORM_TITLE</a></li>
+        </ul>
+    </div>
+</nav>
