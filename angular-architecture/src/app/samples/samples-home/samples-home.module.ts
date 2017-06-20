@@ -12,4 +12,4 @@ import { SamplesHomePageComponent } from './samples-home-page/samples-home-page.
   ],
   declarations: [SamplesHomePageComponent]
 })
-export class HomeModule { }
+export class SamplesHomeModule { }

@@ -2,149 +2,179 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="abb12ac8e10680e5629e313b3d79ccb5cee2cea9" datatype="html" approved="yes">
-        <source>APPLICATION_NAME</source> <target state="translated">Angular Architecture</target> <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
+      <trans-unit id="d571770cd0e2cd7fb174bd32e9d32c1cde64b513" datatype="html" approved="yes">
+        <source>HOME_NAVIGATION_LINK</source> <target state="translated">Página Inicial</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      <note>Home navigation link</note></trans-unit>
+      <trans-unit id="ecc1e3c41b402c05ae5d72e51e20edb7441e6db8" datatype="html" approved="yes">
+        <source>FONT_AWESOME_SUPPORT_NAVIGATION_LINK</source> <target state="translated">Font Awesome</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/samples-layout/samples-layout.component.ts</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="44bc966d35ec9b5a6e092ef98d2d03dd7158b0da" datatype="html" approved="yes">
-        <source>SAMPLES_NAVIGATION_LINK</source>
-        <target state="translated">Exemplos</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
+      <trans-unit id="3f65073945b1062f26d3e21c5744d925bc8ee7e9" datatype="html" approved="yes">
+        <source>LOCALIZATION_SUPPORT_NAVIGATION_LINK</source> <target state="translated">Localization</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ba3680bd409cb5568080b6496cbf3702126cd90" datatype="html" approved="yes">
+        <source>MATERIALIZE_SUPPORT_FORMS_NAVIGATION_LINK</source> <target state="translated">Materialize Forms</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6184c4660f1010b7f5e0089d4d2c7640361531b7" datatype="html" approved="yes">
+        <source>MATERIALIZE_SUPPORT_ICONS_NAVIGATION_LINK</source> <target state="translated">Materialize Icons</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/samples-layout/samples-layout.component.ts</context>
           <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f1a2b1ba2e82a694918ac36d24f03d089f97998" datatype="html" approved="yes">
+        <source>MATERIALIZE_SUPPORT_LAYOUT_NAVIGATION_LINK</source> <target state="translated">Materialize Layout</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ee2723b1c099d4151308078a8d87469343c8a82d" datatype="html" approved="yes">
+        <source>MATERIALIZE_SUPPORT_MODAL_NAVIGATION_LINK</source> <target state="translated">Materialize Modals</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a470a8f10092372bd116cd5675d8b489618c0720" datatype="html" approved="yes">
+        <source>BACK_NAVIGATION_LINK</source> <target state="translated">Voltar</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/samples-layout/samples-layout.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="44bc966d35ec9b5a6e092ef98d2d03dd7158b0da" datatype="html" approved="yes">
+        <source>SAMPLES_NAVIGATION_LINK</source> <target state="translated">Exemplos</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/panel-layout/panel-layout.component.ts</context>
+          <context context-type="linenumber">5</context>
         </context-group>
         <note priority="1" from="description">Samples link</note>
       <note>Samples link</note></trans-unit>
       <trans-unit id="dbddcc8ebd65ce5c9e65fc0cbc4f5a6216a49960" datatype="html" approved="yes">
-        <source>PRODUCTS_LIST_NAVIGATION_LINK</source>
-        <target state="translated">Listar Produtos</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">7</context>
+        <source>PRODUCTS_LIST_NAVIGATION_LINK</source> <target state="translated">Listar Produtos</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/panel-layout/panel-layout.component.ts</context>
+          <context context-type="linenumber">6</context>
         </context-group>
       <note>Products list navigation link</note></trans-unit>
       <trans-unit id="6f29ad43f973c19efeb2aa3911ed287bd2baa672" datatype="html" approved="yes">
-        <source>NEW_PRODUCT_NAVIGATION_LINK</source>
-        <target state="translated">Novo Produto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-      <note>New product navigation link</note></trans-unit>
-      <trans-unit id="d571770cd0e2cd7fb174bd32e9d32c1cde64b513" datatype="html" approved="yes">
-        <source>HOME_NAVIGATION_LINK</source>
-        <target state="translated">Página Inicial</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/panel-layout/panel-layout.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      <note>Home navigation link</note></trans-unit>
-      <trans-unit id="f79365a2535307cc4699c4c2e70cea6e02f1833f" datatype="html" approved="yes">
-        <source>SAMPLES_LAYOUT_HOME_LINK</source>
-        <target state="translated">Página Inicial</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-      <note>Localization Home Link</note></trans-unit>
-      <trans-unit id="1de0f5128c984df6fb87ffca6fd0d0f6a2245fa4" datatype="html" approved="yes">
-        <source>SAMPLES_LAYOUT_FONT_AWESOME_SUPPORT_LINK</source>
-        <target state="translated">Font-Awesome</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+        <source>NEW_PRODUCT_NAVIGATION_LINK</source> <target state="translated">Novo Produto</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/panel-layout/panel-layout.component.ts</context>
           <context context-type="linenumber">7</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="4045fa864cbb941d9fa7bf8ff533e1158400ef19" datatype="html" approved="yes">
-        <source>SAMPLES_LAYOUT_LOCALIZATION_SUPPORT_LINK</source>
-        <target state="translated">Exemplos de Localização</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
-          <context context-type="linenumber">8</context>
+      <note>New product navigation link</note></trans-unit>
+      <trans-unit id="8c074627413d5bf88e1e3f62d689f7cd00ae23af" datatype="html" approved="yes">
+        <source>UNKNOWN_ROUTE_NAVIGATION_LINK</source> <target state="translated">Rota Desconhecida</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/panel-layout/panel-layout.component.ts</context>
+          <context context-type="linenumber">16</context>
         </context-group>
-      <note>Localization Support Link</note></trans-unit>
-      <trans-unit id="bc1157140a314680ee5c7f42f1798dd8f2977e72" datatype="html" approved="yes">
-        <source>SAMPLES_LAYOUT_MATERIALIZE_SUPPORT_FORMS_LINK</source>
-        <target state="translated">Materialize Forms</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="40e9c7f7f81e73200772944d1fcea6814f96bd3c" datatype="html" approved="yes">
-        <source>SAMPLES_LAYOUT_MATERIALIZE_SUPPORT_ICONS_LINK</source>
-        <target state="translated">Materialize Icons</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="546ac5488155362f9fec03d4f212be987683adcb" datatype="html" approved="yes">
-        <source>SAMPLES_LAYOUT_MATERIALIZE_SUPPORT_LAYOUT_LINK</source>
-        <target state="translated">Materialize Layout</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8f094d00db0c72898c3638c5aed065b9cd33d8b1" datatype="html" approved="yes">
-        <source>SAMPLES_LAYOUT_MATERIALIZE_SUPPORT_MODAL_LINK</source>
-        <target state="translated">Materialize Modal</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5e9b4be4b3f9ea79f7dab50c6efa7ad4392640ce" datatype="html" approved="yes">
-        <source>SAMPLES_LAYOUT_BACK_LINK</source>
-        <target state="translated">Voltar</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-layout/samples-layout.component.ts</context>
+      <note>Home navigation link</note></trans-unit>
+      <trans-unit id="21ea31d8840437252fb2d2b4e2a1a7e9f3189e60" datatype="html" approved="yes">
+        <source>INTERNAL_ERROR_NAVIGATION_LINK</source> <target state="translated">Erro Interno</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/panel-layout/panel-layout.component.ts</context>
           <context context-type="linenumber">17</context>
         </context-group>
-      <note>Back Link</note></trans-unit>
-      <trans-unit id="f65253954b66e929a8b4d5ecaf61f9129f8cec64" datatype="html" approved="yes">
-        <source>Dashboard</source>
-        <target state="translated">Dashboard</target>
+      </trans-unit>
+      <trans-unit id="407f78b15aa1502aa7614e129cfe353d9cb9c225" datatype="html" approved="yes">
+        <source>PRODUCTS_LIST_TITLE</source> <target state="translated">Página Listar Produtos</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/commercial/products/products-list/products-list.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2057c34994611aa70503b3d67d354d7f59d65650" datatype="html" approved="yes">
+        <source>PRODUCTS_FORM_TITLE</source> <target state="translated">Formulário de Produto</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/commercial/products/products-form/products-form.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-home/samples-home-page/samples-home-page.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49ead875f827e31e4fb70749976a69b75ecc631c" datatype="html" approved="yes">
+        <source>DASHBOARD_PAGE_TITLE</source> <target state="translated">Página Dashboard</target> <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="65cc4ab3b4c438e07c89be2b677d08369fb62da2" datatype="html" approved="yes">
-        <source>Welcome</source>
-        <target state="translated">Bem Vindo</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
+      <trans-unit id="674c7592be52dcd40b6ef2e110a59ca331c5fec9" datatype="html" approved="yes">
+        <source>INTERNAL_ERROR_PAGE_TITLE</source> <target state="translated">Página Erro Interno</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/internal-error/internal-error-page/internal-error-page.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb667fc1fb2bd5bd8726092ddc111c5b1e4d7e9b" datatype="html" approved="yes">
+        <source>NOT_FOUND_PAGE_TITLE</source> <target state="translated">Página Não Encontrada</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/not-found/not-found-page/not-found-page.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35bfa2bfed4f53c8303d8fbaf76a0acd2ca7472d" datatype="html" approved="yes">
+        <source>FONT_AWESOME_SUPPORT_PAGE_TITLE</source> <target state="translated">Exemplos de Font Awesome</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/font-awesome-support/font-awesome-support-page/font-awesome-support-page.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c52cf2c9e55f4f8c3f6fb40ecc8324abc12429ab" datatype="html" approved="yes">
+        <source>LOCALIZATION_SAMPLE_TITLE</source> <target state="translated">Exemplos de Localization</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/localization-support/localization-support-page/localization-support-page.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0f8496bc630c646efde50c138bc1ec66d49a8594" datatype="html" approved="yes">
+        <source>CURRENT_DATE_LABEL</source> <target state="translated">Data Atual</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/localization-support/localization-support-page/localization-support-page.component.ts</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="78e64c2b4cc73e0d8391e3168456178a9ff1ff53" datatype="html" approved="yes">
-        <source>This is the initial application page</source>
-        <target state="translated">Esta é a página inicial da aplicação</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
+      <trans-unit id="1b893961d61628335ef99341ffbbee55b3efa7d6" datatype="html" approved="yes">
+        <source>MONEY_LABEL</source> <target state="translated">Dinheiro</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/localization-support/localization-support-page/localization-support-page.component.ts</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8c074627413d5bf88e1e3f62d689f7cd00ae23af" datatype="html" approved="yes">
-        <source>UNKNOWN_ROUTE_NAVIGATION_LINK</source>
-        <target state="translated">Rota Desconhecida</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
-          <context context-type="linenumber">8</context>
+      <trans-unit id="bf58ca2a9115dfe8524fe315e4a3ccc53d6946a4" datatype="html" approved="yes">
+        <source>RATE_LABEL</source> <target state="translated">Classificação</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/localization-support/localization-support-page/localization-support-page.component.ts</context>
+          <context context-type="linenumber">5</context>
         </context-group>
-      <note>Home navigation link</note></trans-unit>
-      <trans-unit id="61a208ca47b93bce5aba1288c763b783de682aee" datatype="html" approved="yes">
-        <source>INTERNAL_ERROR_ROUTE_NAVIGATION_LINK</source>
-        <target state="translated">Erro Interno</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
-          <context context-type="linenumber">9</context>
+      </trans-unit>
+      <trans-unit id="ff0dea3c569392ce3841e0652f316ca4cf933baf" datatype="html" approved="yes">
+        <source>MATERIALIZE_MODAL_TITLE</source> <target state="translated">Exemplo de Modals do Materialize</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-modal/materialize-modal.component.ts</context>
+          <context context-type="linenumber">1</context>
         </context-group>
-      <note>Internal error route navigation link</note></trans-unit>
+      </trans-unit>
+      <trans-unit id="efb209d68f875c6763ab6f61385db1c73034d98b" datatype="html" approved="yes">
+        <source>MATERIALIZE_LAYOUT_TITLE</source> <target state="translated">Exemplos de Layout do Materialize</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-layout/materialize-layout.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd7a7850104b439791d40f5d6866cab9cd40aa57" datatype="html" approved="yes">
+        <source>MATERIALIZE_ICONS_TITLE</source> <target state="translated">Exemplos de Ícones do Materialize</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-icons/materialize-icons.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b5161732c91fe3a63c9e956c9342b12bda5ecb41" datatype="html" approved="yes">
+        <source>MATERIALIZE_FORMS_TITLE</source> <target state="translated">Exemplos de Formulário do Materialize</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ba20badf61ae040540e5d6f5279700e307ca3a66" datatype="html" approved="yes">
+        <source>TEST_BUTTON</source> <target state="translated">Botão Teste</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
