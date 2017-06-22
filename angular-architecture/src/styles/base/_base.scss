@@ -1,8 +1,8 @@
-body {
+/*body {
     font: $font-stack;
     color: $primary-color;
     background: $primary-background;
-}
+}*/
 
 .box {
     @include border-radius(5px);
