@@ -1,11 +1,23 @@
 <h1>Materialize Forms</h1>
 
-<button mz-button i18n>TEST_BUTTON_LABEL</button>
 
-<br />
+<div class="row">
 
-<mz-checkbox-container>
-    <input mz-checkbox [label]="'Label'" id="checkbox-id" type="checkbox">
-</mz-checkbox-container>
+    <form class="col s12">
 
-<br />
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="email" type="email" class="validate invalid" placeholder="Insira seu e-mail aqui">
+                <label for="email" class="active" data-error="E-mail inválido" data-success="right">Email</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s12">
+                <button class="waves-effect waves-light btn" i18n>TEST_BUTTON_LABEL</button>
+            </div>
+        </div>
+
+    </form>
+
+</div>

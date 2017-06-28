@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-materialize-forms',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./materialize-forms.component.scss']
 })
 export class MaterializeFormsComponent implements OnInit {
+
+  testForm: FormGroup;
 
   constructor() { }
 
