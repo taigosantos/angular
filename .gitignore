@@ -253,3 +253,5 @@ paket-files/
 
 # Angular
 dist/
+
+.vscode/chrome
