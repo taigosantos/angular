@@ -1,7 +1,7 @@
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { SamplesLayoutComponent } from './components/samples-layout/samples-layout.component';
 import { PanelLayoutComponent } from './components/panel-layout/panel-layout.component';
@@ -12,6 +12,7 @@ import { HeaderComponent } from './components/header/header.component';
   imports: [
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
     RouterModule
   ],
   declarations: [
@@ -23,6 +24,7 @@ import { HeaderComponent } from './components/header/header.component';
   exports: [
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
     RouterModule,
     PageLayoutComponent,
     PanelLayoutComponent,

@@ -1,20 +1,29 @@
 <h1>Materialize Forms</h1>
 
-
 <div class="row">
 
-    <form class="col s12">
+    <form [formGroup]="testForm" (submit)="onSubmit()" class="col s6" novalidate>
 
         <div class="row">
             <div class="input-field col s12">
-                <input id="email" type="email" class="validate invalid" placeholder="Insira seu e-mail aqui">
-                <label for="email" class="active" data-error="E-mail inválido" data-success="right">Email</label>
+                <input id="nome" formControlName="nome" type="text" class="validate" placeholder="Insira seu nome aqui">
+                <label for="nome" class="active" data-error="" data-success="">Nome</label>
             </div>
         </div>
 
         <div class="row">
             <div class="input-field col s12">
-                <button class="waves-effect waves-light btn" i18n>TEST_BUTTON_LABEL</button>
+                <input id="email" formControlName="email" type="email" class="validate" placeholder="Insira seu e-mail aqui">
+                <label for="email" class="active" data-error="" data-success="">E-mail</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s4">
+                <input type="submit" value="Enviar" class="waves-effect waves-light btn" i18n>
+            </div>
+            <div class="input-field col s4 offset-s1">
+                <input type="button" value="Cancelar" (click)="onCancel()" class="waves-effect waves-light btn btn-flat" i18n>
             </div>
         </div>
 
