@@ -2,19 +2,24 @@
 
 <div class="row">
 
-    <form [formGroup]="testForm" (submit)="onSubmit()" class="col s6" novalidate>
+    <form [formGroup]="testForm" (submit)="onSubmit()" class="col s6">
 
         <div class="row">
             <div class="input-field col s12">
-                <input id="nome" formControlName="nome" type="text" class="validate" placeholder="Insira seu nome aqui">
-                <label for="nome" class="active" data-error="" data-success="">Nome</label>
+                <input id="nome" formControlName="nome" type="text" placeholder="Insira seu nome aqui" [ngClass]="insertErrorStyle('nome')" class="validate">
+                <label for="nome" class="active" [attr.data-error]="showMessageErrors('nome')" data-success="Campo Ok">Nome</label>
+                <span class="errors-container">
+                    <span class="error-required">O campo é requerido</span>
+                    <span class="error-minlength">O campo é precisa ter no mínimo 3 caracteres</span>
+                    <span class="error-maxlength">O campo é pode ter no máximo 10 caracteres</span>
+                </span>
             </div>
         </div>
 
         <div class="row">
             <div class="input-field col s12">
-                <input id="email" formControlName="email" type="email" class="validate" placeholder="Insira seu e-mail aqui">
-                <label for="email" class="active" data-error="" data-success="">E-mail</label>
+                <input id="email" formControlName="email" type="email" placeholder="Insira seu e-mail aqui" [ngClass]="insertErrorStyle('email')" class="validate">
+                <label for="email" class="active" [attr.data-error]="showMessageErrors('nome')" data-success="Campo Ok">E-mail</label>
             </div>
         </div>
 
