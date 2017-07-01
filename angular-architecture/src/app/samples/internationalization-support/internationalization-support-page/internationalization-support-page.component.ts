@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InternationalizationSupportPageComponent implements OnInit {
 
+  totalMessages: number = 10;
+  gender: string = 'm';
+
   constructor() { }
 
   ngOnInit() {

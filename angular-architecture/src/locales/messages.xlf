@@ -98,12 +98,20 @@
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6e22e74e8cbd3095560cfe08993c4fdfa3c50eb0" datatype="html">
-        <source>{VAR_PLURAL, plural, =0 {no wolves} =1 {one wolf} =2 {two wolves} other {a wolf pack} }</source>
+      <trans-unit id="da667f9efcf031d6b72ea4a9ec300b1abf10e574" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {No messages } =1 {One message } =2 {Two messages } other {(<x id="INTERPOLATION"/>) messages } }</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7044d5c4bc5ef265169ff4d1b991e999d7c9fc6e" datatype="html">
+        <source>{VAR_SELECT, select, m {His gender is Male } f {Her gender is Female } other {The gender is unknow } }</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0f8496bc630c646efde50c138bc1ec66d49a8594" datatype="html">

@@ -81,16 +81,33 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ad56cfff1f5ebf491e7b195bae6c9efcbae0bc76" datatype="html" approved="yes">
-        <source>I18N_TEST</source> <target state="translated">Teste Internacionalização Simples</target> <context-group purpose="location">
+        <source>I18N_TEST</source>
+        <target state="translated">Teste Internacionalização Simples</target>
+        <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7918f0daf6733c50c9c803b021b6f63e63d5539b" datatype="html" approved="yes">
-        <source>I18N_<x id="INTERPOLATION"/>_TEST_WITH_<x id="INTERPOLATION_1"/>_INTERPOLATION</source> 
-        <target state="translated">Teste <x id="INTERPOLATION"/> Com <x id="INTERPOLATION_1"/> Interpolação</target> <context-group purpose="location">
+        <source>I18N_<x id="INTERPOLATION"/>_TEST_WITH_<x id="INTERPOLATION_1"/>_INTERPOLATION</source>
+        <target state="translated">Teste <x id="INTERPOLATION"/> Com <x id="INTERPOLATION_1"/> Interpolação</target>
+        <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
           <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da667f9efcf031d6b72ea4a9ec300b1abf10e574" datatype="html" approved="yes">
+        <source>{VAR_PLURAL, plural, =0 {No messages } =1 {One message } =2 {Two messages } other {(<x id="INTERPOLATION"/>) messages } }</source>
+        <target state="translated">{VAR_PLURAL, plural, =0 {Sem mensagens } =1 {Uma mensagem } =2 {Duas mensagens } other {(<x id="INTERPOLATION"/>) mensagens } }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7044d5c4bc5ef265169ff4d1b991e999d7c9fc6e" datatype="html" approved="yes">
+        <source>{VAR_SELECT, select, m {His gender is Male } f {Her gender is Female } other {The gender is unknow } }</source> <target state="translated">{VAR_SELECT, select, m {O gênero dele é masculino } f {O gênero dela é feminino } other {Gênero desconhecido } }</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0f8496bc630c646efde50c138bc1ec66d49a8594" datatype="html" approved="yes">
