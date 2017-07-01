@@ -1,0 +1,69 @@
+input:not([type]),
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea {
+    margin-bottom: 0;
+}
+
+.input-field.invalid {
+
+    label {
+        color: #F44336;
+    }
+
+    input:not([type]),
+    input:not([type]):focus,
+    input[type=text],
+    input[type=text]:focus,
+    input[type=password],
+    input[type=password]:focus,
+    input[type=email],
+    input[type=email]:focus,
+    input[type=url],
+    input[type=url]:focus,
+    input[type=time],
+    input[type=time]:focus,
+    input[type=date],
+    input[type=date]:focus,
+    input[type=datetime],
+    input[type=datetime]:focus,
+    input[type=datetime-local],
+    input[type=datetime-local]:focus,
+    input[type=tel],
+    input[type=tel]:focus,
+    input[type=number],
+    input[type=number]:focus,
+    input[type=search],
+    input[type=search]:focus,
+    textarea.materialize-textarea,
+    textarea.materialize-textarea:focus {
+        border-bottom: 1px solid #F44336;
+        box-shadow: 0 1px 0 0 #F44336;
+        color: #F44336;
+    }
+
+}
+
+.input-field label:not(.label-icon).active {
+    font-size: 1rem;
+}
+
+.errors-container {
+    color: red;
+    span {
+        font-size: 0.92rem;
+    }
+}
+
+.input-field label.invalid {
+    color: red;
+}

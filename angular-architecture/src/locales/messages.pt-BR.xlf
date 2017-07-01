@@ -4,86 +4,141 @@
     <body>
       <trans-unit id="d0982d0b58f0e93bccd6cfdf953af7fef4df7b96" datatype="html" approved="yes">
         <source>HOME_TITLE</source> <target state="translated">Página Inicial</target> <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/shared/components/samples-layout/samples-layout.component.ts</context>
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/samples-layout/samples-layout.component.ts</context>
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6576dead04d7e7b067f59561c06b699f6f5cf564" datatype="html" approved="yes">
-        <source>UNKNOWN_ROUTE_TITLE</source> <target state="translated">Rota Desconhecida</target> <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/shared/components/panel-layout/panel-layout.component.ts</context>
+        <source>UNKNOWN_ROUTE_TITLE</source>
+        <target state="translated">Rota Desconhecida</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/panel-layout/panel-layout.component.ts</context>
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="76c548704ef429e8cf99b59212e1de8ebf45dbef" datatype="html" approved="yes">
-        <source>INTERNAL_ERROR_TITLE</source> <target state="translated">Página de Erro Interno</target> <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/shared/components/panel-layout/panel-layout.component.ts</context>
+        <source>INTERNAL_ERROR_TITLE</source>
+        <target state="translated">Página de Erro Interno</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/panel-layout/panel-layout.component.ts</context>
           <context context-type="linenumber">8</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/core/internal-error/internal-error-page/internal-error-page.component.ts</context>
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/internal-error/internal-error-page/internal-error-page.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="50091efd397ebccb0ffb8fcd82cb126c413539f5" datatype="html" approved="yes">
-        <source>SAMPLES_TITLE</source> <target state="translated">Exemplos</target> <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/shared/components/header/header.component.ts</context>
+        <source>SAMPLES_TITLE</source>
+        <target state="translated">Exemplos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/header/header.component.ts</context>
           <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/samples-home/samples-home-page/samples-home-page.component.ts</context>
+          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="407f78b15aa1502aa7614e129cfe353d9cb9c225" datatype="html" approved="yes">
-        <source>PRODUCTS_LIST_TITLE</source> <target state="translated">Listar Produtos</target> <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/shared/components/header/header.component.ts</context>
+        <source>PRODUCTS_LIST_TITLE</source>
+        <target state="translated">Listar Produtos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/header/header.component.ts</context>
           <context context-type="linenumber">6</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/commercial/products/products-list/products-list.component.ts</context>
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/commercial/products/products-list/products-list.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2057c34994611aa70503b3d67d354d7f59d65650" datatype="html" approved="yes">
-        <source>PRODUCTS_FORM_TITLE</source> <target state="translated">Formulário de Produto</target> <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/shared/components/header/header.component.ts</context>
+        <source>PRODUCTS_FORM_TITLE</source>
+        <target state="translated">Formulário de Produto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/shared/components/header/header.component.ts</context>
           <context context-type="linenumber">7</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/commercial/products/products-form/products-form.component.ts</context>
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/commercial/products/products-form/products-form.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a427457f3fa1f353a7108fb1c5c01486fb15ad44" datatype="html" approved="yes">
-        <source>DASHBOARD_TITLE</source> <target state="translated">Painel de Controle</target> <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
+        <source>DASHBOARD_TITLE</source>
+        <target state="translated">Painel de Controle</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/dashboard/dashboard-page/dashboard-page.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d3fa9dc34ef586bf6cf4bed463f3bbe520cd13b7" datatype="html" approved="yes">
-        <source>NOT_FOUND_TITLE</source> <target state="translated">Página Não Encontrada</target> <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/core/not-found/not-found-page/not-found-page.component.ts</context>
+        <source>NOT_FOUND_TITLE</source>
+        <target state="translated">Página Não Encontrada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/core/not-found/not-found-page/not-found-page.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="ad56cfff1f5ebf491e7b195bae6c9efcbae0bc76" datatype="html" approved="yes">
+        <source>I18N_TEST</source> <target state="translated">Teste Internacionalização Simples</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7918f0daf6733c50c9c803b021b6f63e63d5539b" datatype="html" approved="yes">
+        <source>I18N_<x id="INTERPOLATION"/>_TEST_WITH_<x id="INTERPOLATION_1"/>_INTERPOLATION</source> 
+        <target state="translated">Teste <x id="INTERPOLATION"/> Com <x id="INTERPOLATION_1"/> Interpolação</target> <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="0f8496bc630c646efde50c138bc1ec66d49a8594" datatype="html" approved="yes">
-        <source>CURRENT_DATE_LABEL</source> <target state="translated">Data Atual</target> <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/samples/localization-support/localization-support-page/localization-support-page.component.ts</context>
+        <source>CURRENT_DATE_LABEL</source>
+        <target state="translated">Data Atual</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/localization-support/localization-support-page/localization-support-page.component.ts</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1b893961d61628335ef99341ffbbee55b3efa7d6" datatype="html" approved="yes">
-        <source>MONEY_LABEL</source> <target state="translated">Dinheiro</target> <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/samples/localization-support/localization-support-page/localization-support-page.component.ts</context>
+        <source>MONEY_LABEL</source>
+        <target state="translated">Dinheiro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/localization-support/localization-support-page/localization-support-page.component.ts</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="bf58ca2a9115dfe8524fe315e4a3ccc53d6946a4" datatype="html" approved="yes">
-        <source>RATE_LABEL</source> <target state="translated">Classificação</target> <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/samples/localization-support/localization-support-page/localization-support-page.component.ts</context>
+        <source>RATE_LABEL</source>
+        <target state="translated">Classificação</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/localization-support/localization-support-page/localization-support-page.component.ts</context>
           <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5030704db6263c1ec8587bd19efda87ec2a97ea2" datatype="html" approved="yes">
-        <source>TEST_BUTTON_LABEL</source> <target state="translated">Botão Teste</target> <context-group purpose="location">
-          <context context-type="sourcefile">C:/Git-Estudos/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
-          <context context-type="linenumber">3</context>
+      <trans-unit id="6bd9c320e4fec06cad107870b846cf3770f88176" datatype="html" approved="yes">
+        <source>NAME_FIELD_PLACEHOLDER</source>
+        <target state="translated">Informe o seu nome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e9e06a16e97517790fc785aedf0cf7b864277a82" datatype="html" approved="yes">
+        <source>NAME_FIELD_LABEL</source>
+        <target state="translated">Nome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1ac2ae46bf98f4a98198b352c4eabaa4785b4b07" datatype="html" approved="yes">
+        <source>REQUIRED_FIELD_ERROR_MESSAGE</source>
+        <target state="translated">O campo é obrigatório</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
     </body>

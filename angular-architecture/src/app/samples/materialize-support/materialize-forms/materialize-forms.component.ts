@@ -8,19 +8,21 @@ import { FormGroup, FormBuilder, Validators, ValidationErrors } from '@angular/f
 })
 export class MaterializeFormsComponent implements OnInit {
 
+  // @ PROPERTIES
+
   testForm: FormGroup;
+
+  // @ CONSTRUCTOR
 
   constructor(
     private formBuilder: FormBuilder
   ) { }
 
+  // @ EVENTS
+
   ngOnInit() {
-
-let teste = Validators.maxLength(10);
-console.log(teste);
-
     this.testForm = this.formBuilder.group({
-      nome: [null, [Validators.required, Validators.minLength(3), Validators.maxLength(10)]],
+      name: [null, [Validators.required, Validators.minLength(3), Validators.maxLength(10)]],
       email: [null, [Validators.required, Validators.email]]
     });
   }
@@ -38,40 +40,38 @@ console.log(teste);
     this.testForm.reset();
   }
 
-  showMessageErrors(formControlName: string) {
+  // @ METHODS
 
-    if (!this.verifyInvalidAndTouchedControl(formControlName))
-      return '';
-
-    const controlErrors: ValidationErrors = this.testForm.get(formControlName).errors;
-    
-    if (controlErrors != null && Object.keys(controlErrors).length > 0) {
-      let key = Object.keys(controlErrors)[0];
-
-      // Object.keys(controlErrors).forEach(keyError => {
-      //   console.log('Key control: ' + formControlName + ', keyError: ' + keyError + ', err value: ', controlErrors[keyError]);
-      // });
-    }
-
-
-
-    return '';
-
-  }
-
-  insertErrorStyle(formControlName: string) {
+  insertErrorStyle(formControlName: string): Object {
     return {
       'invalid': this.verifyInvalidAndTouchedControl(formControlName),
       'valid': this.verifyValidAndTouchedControl(formControlName)
     }
   }
 
-  verifyInvalidAndTouchedControl(formControlName: string) {
+  verifyInvalidAndTouchedControl(formControlName: string): boolean {
     return this.testForm.get(formControlName).invalid && this.testForm.get(formControlName).touched;
   }
 
-  verifyValidAndTouchedControl(formControlName: string) {
+  verifyValidAndTouchedControl(formControlName: string): boolean {
     return this.testForm.get(formControlName).valid && this.testForm.get(formControlName).touched;
   }
 
+  nextInvalidError(formControlName: string, errorKey: string): boolean {
+    const controlErrors: ValidationErrors = this.testForm.get(formControlName).errors;
+
+    if (controlErrors == null || Object.keys(controlErrors).length == 0)
+      return false;
+
+    return Object.keys(controlErrors)[0] === errorKey;
+  }
+
+  getMinlengthErrorInfo(formControlName: string): any {
+    return this.testForm.get(formControlName).errors['minlength'];
+  }
+
+  getMaxlengthErrorInfo(formControlName: string): any {
+    return this.testForm.get(formControlName).errors['maxlength'];
+  }
+  
 }

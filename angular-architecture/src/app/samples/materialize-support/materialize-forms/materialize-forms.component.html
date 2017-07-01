@@ -2,36 +2,36 @@
 
 <div class="row">
 
-    <form [formGroup]="testForm" (submit)="onSubmit()" class="col s6">
+  <form [formGroup]="testForm" (submit)="onSubmit()" class="col s6">
 
-        <div class="row">
-            <div class="input-field col s12">
-                <input id="nome" formControlName="nome" type="text" placeholder="Insira seu nome aqui" [ngClass]="insertErrorStyle('nome')" class="validate">
-                <label for="nome" class="active" [attr.data-error]="showMessageErrors('nome')" data-success="Campo Ok">Nome</label>
-                <span class="errors-container">
-                    <span class="error-required">O campo é requerido</span>
-                    <span class="error-minlength">O campo é precisa ter no mínimo 3 caracteres</span>
-                    <span class="error-maxlength">O campo é pode ter no máximo 10 caracteres</span>
-                </span>
-            </div>
-        </div>
+    <div class="row">
+      <div class="input-field col s12" [ngClass]="insertErrorStyle('name')">
+        <input id="name" formControlName="name" type="text" placeholder="NAME_FIELD_PLACEHOLDER" maxlength="10" i18n-placeholder>
+        <label for="name" class="active" i18n>NAME_FIELD_LABEL</label>
+        <span class="errors-container" *ngIf="verifyInvalidAndTouchedControl('name')">
+          <span *ngIf="nextInvalidError('name','required')" i18n>REQUIRED_FIELD_ERROR_MESSAGE</span>
+          <span *ngIf="nextInvalidError('name','minlength')">O campo precisa ter no mínimo {{ getMinlengthErrorInfo('name').requiredLength }} caractere(s) (atualmente: {{ getMinlengthErrorInfo('name').actualLength }})</span>
+          <span *ngIf="nextInvalidError('name','maxlength')">O campo precisa ter no máximo {{ getMaxlengthErrorInfo('name').requiredLength }} caractere(s) (atualmente: {{ getMaxlengthErrorInfo('name').actualLength }})</span>
+        </span>
+      </div>
+    </div>
 
-        <div class="row">
-            <div class="input-field col s12">
-                <input id="email" formControlName="email" type="email" placeholder="Insira seu e-mail aqui" [ngClass]="insertErrorStyle('email')" class="validate">
-                <label for="email" class="active" [attr.data-error]="showMessageErrors('nome')" data-success="Campo Ok">E-mail</label>
-            </div>
-        </div>
+    <div class="row">
+      <div class="input-field col s12" [ngClass]="insertErrorStyle('email')">
+        <input id="email" formControlName="email" type="email" placeholder="Insira seu e-mail aqui">
+        <label for="email" class="active">E-mail</label>
+      </div>
+    </div>
 
-        <div class="row">
-            <div class="input-field col s4">
-                <input type="submit" value="Enviar" class="waves-effect waves-light btn" i18n>
-            </div>
-            <div class="input-field col s4 offset-s1">
-                <input type="button" value="Cancelar" (click)="onCancel()" class="waves-effect waves-light btn btn-flat" i18n>
-            </div>
-        </div>
+    <div class="row">
+      <div class="input-field col s4">
+        <input type="submit" value="Enviar" class="waves-effect waves-light btn" i18n>
+      </div>
+      <div class="input-field col s4 offset-s1">
+        <input type="button" value="Cancelar" (click)="onCancel()" class="waves-effect waves-light btn btn-flat" i18n>
+      </div>
+    </div>
 
-    </form>
+  </form>
 
 </div>
