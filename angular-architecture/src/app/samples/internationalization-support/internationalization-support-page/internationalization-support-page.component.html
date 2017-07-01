@@ -5,7 +5,7 @@
 
 <div>
   <h3>Pluralization</h3>
-  <span>Total Messages:</span> <input type="text" [(ngModel)]="totalMessages" />
+  <label i18n>TOTAL_MESSAGES:</label> <input type="text" [(ngModel)]="totalMessages" />
   <span *ngIf="totalMessages" i18n>{totalMessages, plural, 
       =0 { No messages } 
       =1 { One message } 
@@ -16,15 +16,15 @@
 
 <div>
   <h3>Select</h3>
-  <span>Gender:</span>
+  <span i18n>GENDER:</span>
   <br />
   <p>
     <input name="gender-options" type="radio" id="gender-male" value="m" [(ngModel)]="gender" />
-    <label for="gender-male">Male</label>
+    <label for="gender-male" i18n>MALE</label>
   </p>
   <p>
     <input name="gender-options" type="radio" id="gender-female" value="f" [(ngModel)]="gender" />
-    <label for="gender-female">Female</label>
+    <label for="gender-female" i18n>FEMALE</label>
   </p>
   <br />
   <span *ngIf="gender" i18n>{gender, select, 

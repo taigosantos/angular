@@ -98,6 +98,14 @@
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="dc1e21a3f92d27de9242e73ff76f445afe88fe77" datatype="html">
+        <source>TOTAL_MESSAGES:</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="da667f9efcf031d6b72ea4a9ec300b1abf10e574" datatype="html">
         <source>{VAR_PLURAL, plural, =0 {No messages } =1 {One message } =2 {Two messages } other {(<x id="INTERPOLATION"/>) messages } }</source>
         <target/>
@@ -106,12 +114,36 @@
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="b281f19edf2b200967b6abe9bf2c200f89c744b5" datatype="html">
+        <source>GENDER:</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="258cfed77ffda549f0a093e4c41b9c6a7cd7d486" datatype="html">
+        <source>MALE</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7643fe55f8d9605da5beb825cb1fc8beda49c3c8" datatype="html">
+        <source>FEMALE</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="7044d5c4bc5ef265169ff4d1b991e999d7c9fc6e" datatype="html">
         <source>{VAR_SELECT, select, m {His gender is Male } f {Her gender is Female } other {The gender is unknow } }</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/internationalization-support/internationalization-support-page/internationalization-support-page.component.ts</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0f8496bc630c646efde50c138bc1ec66d49a8594" datatype="html">
@@ -160,6 +192,22 @@
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
           <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4b4c1fa7d0787d96a64f1094e1888b3d2475fc35" datatype="html">
+        <source>FIELD_MINIMUM_OF_<x id="INTERPOLATION"/>_CHAR(S)_(ACTUALLY:_<x id="INTERPOLATION_1"/>)_ERROR_MESSAGE</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0b9d33149a3025f1b3eefc0c82117067ab9c0b74" datatype="html">
+        <source>FIELD_MAXIMUM_OF_<x id="INTERPOLATION"/>_CHAR(S)_(ACTUALLY:_<x id="INTERPOLATION_1"/>)_ERROR_MESSAGE</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
     </body>

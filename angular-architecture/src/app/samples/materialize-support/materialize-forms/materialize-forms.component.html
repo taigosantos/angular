@@ -10,8 +10,8 @@
         <label for="name" class="active" i18n>NAME_FIELD_LABEL</label>
         <span class="errors-container" *ngIf="verifyInvalidAndTouchedControl('name')">
           <span *ngIf="nextInvalidError('name','required')" i18n>REQUIRED_FIELD_ERROR_MESSAGE</span>
-          <span *ngIf="nextInvalidError('name','minlength')">O campo precisa ter no mínimo {{ getMinlengthErrorInfo('name').requiredLength }} caractere(s) (atualmente: {{ getMinlengthErrorInfo('name').actualLength }})</span>
-          <span *ngIf="nextInvalidError('name','maxlength')">O campo precisa ter no máximo {{ getMaxlengthErrorInfo('name').requiredLength }} caractere(s) (atualmente: {{ getMaxlengthErrorInfo('name').actualLength }})</span>
+          <span *ngIf="nextInvalidError('name','minlength')" i18n>FIELD_MINIMUM_OF_{{ getMinlengthErrorInfo('name').requiredLength }}_CHAR(S)_(ACTUALLY:_{{ getMinlengthErrorInfo('name').actualLength }})_ERROR_MESSAGE</span>
+          <span *ngIf="nextInvalidError('name','maxlength')" i18n>FIELD_MAXIMUM_OF_{{ getMaxlengthErrorInfo('name').requiredLength }}_CHAR(S)_(ACTUALLY:_{{ getMaxlengthErrorInfo('name').actualLength }})_ERROR_MESSAGE</span>
         </span>
       </div>
     </div>
