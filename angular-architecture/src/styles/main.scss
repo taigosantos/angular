@@ -1,19 +1,24 @@
+// utils
+
+@import 'utils/variables';
+@import 'utils/mixins';
+
 // vendors
 
 @import 'vendor/font-awesome';
 @import 'vendor/materialize';
 @import 'vendor/material-design-icons';
 
-// utils
-
-@import 'utils/variables';
-@import 'utils/mixins';
-
 // base
 
 @import 'base/reset';
 @import 'base/typography';
 @import 'base/base';
+
+// layout
+
+@import 'layout/form';
+@import 'layout/grid';
 
 // themes
 

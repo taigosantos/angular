@@ -170,44 +170,154 @@
           <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6bd9c320e4fec06cad107870b846cf3770f88176" datatype="html">
-        <source>NAME_FIELD_PLACEHOLDER</source>
+      <trans-unit id="4730d6837458c35aa2a8b5b204dffa9376a008a1" datatype="html">
+        <source>Insert your name here</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="e9e06a16e97517790fc785aedf0cf7b864277a82" datatype="html">
-        <source>NAME_FIELD_LABEL</source>
+      <trans-unit id="616e206cb4f25bd5885fc35925365e43cf5fb929" datatype="html">
+        <source>Name:</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
           <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1ac2ae46bf98f4a98198b352c4eabaa4785b4b07" datatype="html">
-        <source>REQUIRED_FIELD_ERROR_MESSAGE</source>
+      <trans-unit id="9bd96fcf50863e685c74d0490392f46689ffbdb6" datatype="html">
+        <source>Required field</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
           <context context-type="linenumber">12</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="4b4c1fa7d0787d96a64f1094e1888b3d2475fc35" datatype="html">
-        <source>FIELD_MINIMUM_OF_<x id="INTERPOLATION"/>_CHAR(S)_(ACTUALLY:_<x id="INTERPOLATION_1"/>)_ERROR_MESSAGE</source>
+      <trans-unit id="9f54233e8cb59845cce94efdc3e7486f2228544f" datatype="html">
+        <source>The field must be at least</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="0b9d33149a3025f1b3eefc0c82117067ab9c0b74" datatype="html">
-        <source>FIELD_MAXIMUM_OF_<x id="INTERPOLATION"/>_CHAR(S)_(ACTUALLY:_<x id="INTERPOLATION_1"/>)_ERROR_MESSAGE</source>
+      <trans-unit id="20d45a7b3674efe912534626db63a6749a925f1f" datatype="html">
+        <source>character(s)</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a64f95b0f50a381dcf6249778ee310e4b17863bc" datatype="html">
+        <source>currently:</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eda6649bbb4075c346f1eab80f0aaa778c561ee3" datatype="html">
+        <source>The field must be a maximum of</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
           <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f738d0d8bfb4681262da4f7444d5d640a9c4b95a" datatype="html">
+        <source>Insert your e-mail here</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="485aea92f94ccf8d3176304df626aedd25aca92b" datatype="html">
+        <source>E-mail:</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="23e7f31836515718512828c4db3da29cd7a12f96" datatype="html">
+        <source>Invalid e-mail</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="097b5dfee5665aa0f7daba8b696acecde6445474" datatype="html">
+        <source>Male</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="18f3bafdc69b800737e303bc1cb0753bd9dd3f32" datatype="html">
+        <source>Female</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="81b090ca8b0d1629d26b369ac21fa7c4d3191c0f" datatype="html">
+        <source>Genre</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a628de2fa3712c7bb4a8af3c9ba88eaa3f741447" datatype="html">
+        <source>Choose your genre</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="24b48e7d4992031bd0a79685eb7fb94fe312930a" datatype="html">
+        <source>Submit
+          <x id="START_ITALIC_TEXT" ctype="x-i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i"/>
+        </source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/Github/angular/angular-architecture/src/app/samples/materialize-support/materialize-forms/materialize-forms.component.ts</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
     </body>

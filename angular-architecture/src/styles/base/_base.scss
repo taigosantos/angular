@@ -24,3 +24,10 @@ body {
 .full-height {
     min-height: 100vh !important;
 }
+
+.errors-container {
+    color: red;
+    span {
+        font-size: 0.92rem;
+    }
+}
