@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 // application modules
 import { CommercialModule } from './commercial/commercial.module';
@@ -22,6 +23,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     HttpModule,
     RouterModule,
+    FlexLayoutModule,
 
     // application modules
     CommercialModule,
