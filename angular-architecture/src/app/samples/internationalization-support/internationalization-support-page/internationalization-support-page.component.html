@@ -1,0 +1,35 @@
+<h1>Internationalization</h1>
+
+<p><span i18n>I18N_TEST</span></p>
+<p><span i18n>I18N_{{ 'ABC' }}_TEST_WITH_{{ 123 }}_INTERPOLATION</span></p>
+
+<div>
+  <h3>Pluralization</h3>
+  <label i18n>TOTAL_MESSAGES:</label> <input type="text" [(ngModel)]="totalMessages" />
+  <span *ngIf="totalMessages" i18n>{totalMessages, plural, 
+      =0 { No messages } 
+      =1 { One message } 
+      =2 { Two messages } 
+      other { ({{totalMessages}}) messages }
+      }</span>
+</div>
+
+<div>
+  <h3>Select</h3>
+  <span i18n>GENDER:</span>
+  <br />
+  <p>
+    <input name="gender-options" type="radio" id="gender-male" value="m" [(ngModel)]="gender" />
+    <label for="gender-male" i18n>MALE</label>
+  </p>
+  <p>
+    <input name="gender-options" type="radio" id="gender-female" value="f" [(ngModel)]="gender" />
+    <label for="gender-female" i18n>FEMALE</label>
+  </p>
+  <br />
+  <span *ngIf="gender" i18n>{gender, select, 
+      m { His gender is Male } 
+      f { Her gender is Female } 
+      other { The gender is unknow }
+      }</span>
+</div>

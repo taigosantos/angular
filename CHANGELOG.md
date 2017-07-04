@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.7.0
+
+- Testes de Internacionalização
+- Testes de formulários reativos com validação
+
 ## 0.6.0
 
 - Adição do módulo `SharedModule`, módulo reponsável por compartilhar components, modules, pipes, services e directives comuns entre os outros módulos

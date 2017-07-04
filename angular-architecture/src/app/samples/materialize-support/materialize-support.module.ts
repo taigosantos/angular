@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 
-import { MaterializeModule } from 'ng2-materialize';
-
 import { SharedModule } from './../../shared/shared.module';
 import { MaterializeSupportRoutingModule } from './materialize-support-routing.module';
 
@@ -13,9 +11,13 @@ import { MaterializeModalComponent } from './materialize-modal/materialize-modal
 @NgModule({
   imports: [
     SharedModule,
-    MaterializeSupportRoutingModule,
-    MaterializeModule.forRoot()
+    MaterializeSupportRoutingModule
   ],
-  declarations: [MaterializeIconsComponent, MaterializeFormsComponent, MaterializeLayoutComponent, MaterializeModalComponent]
+  declarations: [
+    MaterializeIconsComponent,
+    MaterializeFormsComponent,
+    MaterializeLayoutComponent,
+    MaterializeModalComponent
+  ]
 })
 export class MaterializeSupportModule { }
