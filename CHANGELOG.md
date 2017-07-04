@@ -1,9 +1,10 @@
 # CHANGELOG
 
-## 0.7.0
+## UNRELEASED
 
 - Testes de Internacionalização
 - Testes de formulários reativos com validação
+- Adição dos scripts de configurções para publicação no serviço de hosting do [Firebase](https://firebase.google.com)
 
 ## 0.6.0
 
