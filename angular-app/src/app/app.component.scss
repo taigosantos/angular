@@ -1,0 +1,31 @@
+@import "./../styles/utils/variables";
+
+.main-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidenav {
+    width: 250px;
+    max-width: 250px;
+    overflow-x: hidden;
+}
+
+.left-sidenav {
+    padding: 10px;
+    background: rgb(32, 38, 48);
+    color: rgb(216, 216, 216);
+}
+
+.right-sidenav {
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(32, 38, 48);
+}
+
+.mat-sidenav.mat-sidenav-opened:not(.mat-sidenav-side),
+.mat-sidenav.mat-sidenav-opening:not(.mat-sidenav-side) {
+    box-shadow: $z-depth-3;
+}

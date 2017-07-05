@@ -2,8 +2,14 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MdCheckboxModule, MdInputModule, MdCardModule, MdButtonModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import {
+  MdCheckboxModule,
+  MdInputModule,
+  MdCardModule,
+  MdButtonModule,
+  MdSidenavModule
+} from '@angular/material';
 
 import { SamplesLayoutComponent } from './components/samples-layout/samples-layout.component';
 import { PanelLayoutComponent } from './components/panel-layout/panel-layout.component';
@@ -26,6 +32,7 @@ import { HeaderComponent } from './components/header/header.component';
     MdCheckboxModule,
     MdCardModule,
     MdButtonModule,
+    MdSidenavModule,
     FlexLayoutModule
 
   ],
@@ -54,6 +61,7 @@ import { HeaderComponent } from './components/header/header.component';
     MdInputModule,
     MdCardModule,
     MdButtonModule,
+    MdSidenavModule,
     FlexLayoutModule,
 
     // Layouts components
