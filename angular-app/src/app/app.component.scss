@@ -1,5 +1,5 @@
 @import "./../styles/utils/variables";
-
+@import "./../styles/utils/media";
 .main-content {
     display: flex;
     height: 100%;
@@ -7,22 +7,46 @@
     justify-content: center;
 }
 
+.dashboard-container {
+    min-height: 100%;
+    height: 100%;
+}
+
 .sidenav {
-    width: 250px;
-    max-width: 250px;
     overflow-x: hidden;
 }
 
 .left-sidenav {
+    width: 240px;
+    max-width: 240px;
+    min-width: 240px;
     padding: 10px;
     background: rgb(32, 38, 48);
     color: rgb(216, 216, 216);
+    @include media("<=phone") {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
 }
 
 .right-sidenav {
+    width: 360px;
+    max-width: 360px;
+    min-width: 360px;
     padding: 10px;
     background: rgb(255, 255, 255);
     color: rgb(32, 38, 48);
+    @include media("<=tablet") {
+        width: 320px;
+        max-width: 320px;
+        min-width: 320px;
+    }
+    @include media("<=phone") {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
 }
 
 .mat-sidenav.mat-sidenav-opened:not(.mat-sidenav-side),
