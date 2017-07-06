@@ -23,7 +23,7 @@
     padding: 10px;
     background: rgb(32, 38, 48);
     color: rgb(216, 216, 216);
-    @include media("<=phone") {
+    @include media("<=xsmall") {
         width: 100%;
         max-width: 100%;
         min-width: 100%;
@@ -37,12 +37,12 @@
     padding: 10px;
     background: rgb(255, 255, 255);
     color: rgb(32, 38, 48);
-    @include media("<=tablet") {
+    @include media("<=medium") {
         width: 320px;
         max-width: 320px;
         min-width: 320px;
     }
-    @include media("<=phone") {
+    @include media("<=xsmall") {
         width: 100%;
         max-width: 100%;
         min-width: 100%;

@@ -32,9 +32,11 @@
 ///  $breakpoints: ('phone': 320px);
 ///
 $breakpoints: (
-  'phone': 320px,
-  'tablet': 768px,
-  'desktop': 1024px
+  'xsmall': 600px,
+  'small': 960px,
+  'medium': 1280px,
+  'large': 1920px,
+  'xlarge': 2560px,
 ) !default;
 
 
@@ -136,7 +138,7 @@ $im-media-support: true !default;
 ///
 ///  /* No output */
 ///
-$im-no-media-breakpoint: 'desktop' !default;
+$im-no-media-breakpoint: 'medium' !default;
 
 ///
 /// Selects which media expressions are allowed in an expression for it to be used when media queries

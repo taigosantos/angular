@@ -1,12 +1,16 @@
 <!--<router-outlet></router-outlet>-->
 
 <md-sidenav-container class="dashboard-container">
+
+  <!--LEFT SIDENAV -->
   <md-sidenav #leftSideNav class="sidenav left-sidenav">
     LEFT Sidenav.
     <button type="button" md-button (click)="leftSideNav.close()" style="background-color: #FF4081; color: white" class="z-depth-1">
       close LEFT
     </button>
   </md-sidenav>
+
+  <!--RIGHT SIDENAV -->
   <md-sidenav #rightSideNav align="end" class="sidenav right-sidenav">
     RIGHT Sidenav.
     <button type="button" md-button (click)="rightSideNav.close()" style="background-color: #FF4081; color: white" class="z-depth-1">
@@ -14,8 +18,9 @@
     </button>
   </md-sidenav>
 
+  <!-- MAIN CONTENT-->
   <div class="main-content">
-     <button type="button" md-button (click)="leftSideNav.open()" class="z-depth-1">
+    <button type="button" md-button (click)="leftSideNav.open()" class="z-depth-1">
       Open LEFT
     </button>
     <button type="button" md-button (click)="rightSideNav.open()" style="background-color: #FF4081; color: white" class="z-depth-1">
