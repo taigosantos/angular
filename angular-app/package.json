@@ -12,7 +12,7 @@
     "build:en-us": "ng build --output-path=dist/en-us --aot -prod --bh /en-us/ --i18n-file=src/locales/messages.en-US.xlf --locale=en-US",
     "build": "npm run build:pt-br && npm run build:en-us",
     "deploy": "firebase deploy",
-    "start": "npm run dev:pt-br"
+    "start": "ng serve"
   },
   "private": true,
   "dependencies": {
