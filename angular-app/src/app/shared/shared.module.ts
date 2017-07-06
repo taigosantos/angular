@@ -8,7 +8,8 @@ import {
   MdInputModule,
   MdCardModule,
   MdButtonModule,
-  MdSidenavModule
+  MdSidenavModule,
+  MdListModule
 } from '@angular/material';
 
 import { SamplesLayoutComponent } from './components/samples-layout/samples-layout.component';
@@ -33,6 +34,7 @@ import { HeaderComponent } from './components/header/header.component';
     MdCardModule,
     MdButtonModule,
     MdSidenavModule,
+    MdListModule,
     FlexLayoutModule
 
   ],
@@ -62,6 +64,7 @@ import { HeaderComponent } from './components/header/header.component';
     MdCardModule,
     MdButtonModule,
     MdSidenavModule,
+    MdListModule,
     FlexLayoutModule,
 
     // Layouts components

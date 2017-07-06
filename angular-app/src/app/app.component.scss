@@ -2,9 +2,13 @@
 @import "./../styles/utils/media";
 .main-content {
     display: flex;
-    height: 100%;
+    height: calc(100% - 20px);
     align-items: center;
     justify-content: center;
+    margin: 10px;
+    box-sizing: border-box;
+    background: #e0e0e0;
+    border: 4px solid #ccc;
 }
 
 .dashboard-container {
@@ -52,4 +56,32 @@
 .mat-sidenav.mat-sidenav-opened:not(.mat-sidenav-side),
 .mat-sidenav.mat-sidenav-opening:not(.mat-sidenav-side) {
     box-shadow: $z-depth-3;
+}
+
+.demo {
+  display: flex;
+  flex-flow: row wrap;
+
+  .mat-list, .mat-nav-list {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    width: 350px;
+    margin: 20px 20px 0 0;
+
+  }
+  h2 {
+    margin-top: 20px;
+  }
+
+  .mat-icon {
+    color: rgba(0, 0, 0, 0.12);
+  }
+
+  .mat-list-icon {
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.demo-secondary-text {
+  color: rgba(0, 0, 0, 0.54);
 }
