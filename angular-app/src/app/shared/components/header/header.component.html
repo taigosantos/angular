@@ -1,10 +1,12 @@
-<nav>
-    <div class="nav-wrapper">
-        <a routerLink="/" class="left brand-logo">Logo</a>
-        <ul class="right">
-            <li routerLinkActive="active"><a routerLink="/samples" i18n>SAMPLES_TITLE</a></li>
-            <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><a routerLink="/products" i18n>PRODUCTS_LIST_TITLE</a></li>
-            <li routerLinkActive="active"><a routerLink="/products/new" i18n>PRODUCTS_FORM_TITLE</a></li>
-        </ul>
-    </div>
+<nav class="dashboard-navbar">
+  <div>
+    <button type="button" md-button (click)="onLeftSideNavOpenerClick()" *ngIf="showLeftSideOpener" class="z-depth-1" style="background:grey; color:white">
+    Open LEFT
+    </button>
+  </div>
+  <div>
+    <button type="button" md-button (click)="onRightSideNavOpenerClick()" style="background-color: #FF4081; color: white" class="z-depth-1">
+    Open RIGHT
+    </button>
+  </div>
 </nav>

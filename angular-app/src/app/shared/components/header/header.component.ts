@@ -1,15 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
 
-  constructor() { }
+  @Input() showLeftSideOpener: boolean;
+  @Output() leftSideNavOpenerClick = new EventEmitter();
+  @Output() rightSideNavOpenerClick = new EventEmitter();
 
-  ngOnInit() {
+  onLeftSideNavOpenerClick() {
+    this.leftSideNavOpenerClick.emit();
+  }
+
+  onRightSideNavOpenerClick() {
+    this.rightSideNavOpenerClick.emit();
   }
 
 }

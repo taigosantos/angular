@@ -1,7 +1,8 @@
 @import "./../../../../styles/utils/variables";
 @import "./../../../../styles/utils/media";
+
 .main-content {
-    height: calc(100% - 20px);
+    height: calc(100% - 68px);
     margin: 10px;
     box-sizing: border-box;
     background: #e0e0e0;
@@ -53,20 +54,4 @@
 .mat-sidenav.mat-sidenav-opened:not(.mat-sidenav-side),
 .mat-sidenav.mat-sidenav-opening:not(.mat-sidenav-side) {
     box-shadow: $z-depth-3;
-}
-
-// NAVBAR
-.dashboard-navbar {
-    padding: 10px 10px 0 10px;
-    &:after {
-        content: '';
-        display: block;
-        clear: both;
-    }
-    div:first-child {
-        float: left;
-    }
-    div:last-child {
-        float: right;
-    }
 }
