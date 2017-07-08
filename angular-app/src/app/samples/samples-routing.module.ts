@@ -1,17 +1,32 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { SamplesLayoutComponent } from './../shared/components/samples-layout/samples-layout.component';
+import { PanelLayoutComponent } from './../shared/components/panel-layout/panel-layout.component';
 
 const routes: Routes = [{
   path: 'samples',
-  component: SamplesLayoutComponent,
+  component: PanelLayoutComponent,
   children: [
-    { path: 'internationalization-support', loadChildren: './internationalization-support/internationalization-support.module#InternationalizationSupportModule' },
-    { path: 'localization-support', loadChildren: './localization-support/localization-support.module#LocalizationSupportModule' },
-    { path: 'materialize-support', loadChildren: './materialize-support/materialize-support.module#MaterializeSupportModule' },
-    { path: 'font-awesome-support', loadChildren: './font-awesome-support/font-awesome-support.module#FontAwesomeSupportModule' },
-    { path: '', loadChildren: './samples-home/samples-home.module#SamplesHomeModule' }
+    {
+      path: 'internationalization-support',
+      loadChildren: './internationalization-support/internationalization-support.module#InternationalizationSupportModule'
+    },
+    {
+      path: 'localization-support',
+      loadChildren: './localization-support/localization-support.module#LocalizationSupportModule'
+    },
+    {
+      path: 'materialize-support',
+      loadChildren: './materialize-support/materialize-support.module#MaterializeSupportModule'
+    },
+    {
+      path: 'font-awesome-support',
+      loadChildren: './font-awesome-support/font-awesome-support.module#FontAwesomeSupportModule'
+    },
+    {
+      path: '',
+      loadChildren: './samples-home/samples-home.module#SamplesHomeModule'
+    }
   ]
 }];
 

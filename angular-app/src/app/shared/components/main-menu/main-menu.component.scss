@@ -1,0 +1,27 @@
+.left-sidenav .mat-list .mat-list-item {
+    &.mat-multi-line .mat-list-item-content,
+    .mat-list-item-content {
+        padding: 0;
+    }
+    a {
+        color: rgb(216, 216, 216);
+        display: block;
+        width: 100%;
+        padding: 5px 0 5px 10px;
+        text-decoration: none;
+        &:hover {
+            background: #374348;
+            color: #fff;
+        }
+        &.active {
+            background: #374348;
+            color: #fff;
+        }
+    }
+    .mat-list-text {
+        h3 {
+            color: rgb(166, 166, 166);
+            margin-bottom: 10px;
+        }
+    }
+}

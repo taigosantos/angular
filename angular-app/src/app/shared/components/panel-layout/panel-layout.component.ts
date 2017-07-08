@@ -7,9 +7,32 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PanelLayoutComponent implements OnInit {
 
-  constructor() { }
+  // PROPERTIES
+
+  leftSidenavMode: string;
+  leftSidenavIsOppened: boolean;
+
+  // COMPONENT METHODS
 
   ngOnInit() {
+    this.leftSidenavMode = 'side';
+    this.leftSidenavIsOppened = true;
+  }
+
+  // LEFT SIDE METHODS
+
+  pinLeftSideNav() {
+    this.leftSidenavMode = 'side';
+    this.leftSidenavIsOppened = true;
+  }
+
+  unpinLeftSideNav() {
+    this.leftSidenavMode = 'over';
+    this.leftSidenavIsOppened = false;
+  }
+
+  isLeftSidenavPinned(): boolean {
+    return this.leftSidenavMode === 'side';
   }
 
 }

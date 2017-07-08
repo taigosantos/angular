@@ -12,10 +12,10 @@ import {
   MdListModule
 } from '@angular/material';
 
-import { SamplesLayoutComponent } from './components/samples-layout/samples-layout.component';
 import { PanelLayoutComponent } from './components/panel-layout/panel-layout.component';
 import { PageLayoutComponent } from './components/page-layout/page-layout.component';
 import { HeaderComponent } from './components/header/header.component';
+import { MainMenuComponent } from './components/main-menu/main-menu.component';
 
 @NgModule({
   imports: [
@@ -44,8 +44,8 @@ import { HeaderComponent } from './components/header/header.component';
 
     PageLayoutComponent,
     PanelLayoutComponent,
-    SamplesLayoutComponent,
     HeaderComponent,
+    MainMenuComponent,
 
   ],
   exports: [
@@ -71,7 +71,7 @@ import { HeaderComponent } from './components/header/header.component';
 
     PageLayoutComponent,
     PanelLayoutComponent,
-    SamplesLayoutComponent
+    MainMenuComponent
 
   ]
 })
