@@ -42,13 +42,17 @@
   </md-sidenav>
 
   <!-- NAVBAR -->
-  <nav class="dashboard-navbar" fxLayout="row" fxLayoutAlign="space-between none">
-    <button type="button" md-button (click)="leftSideNav.open()" *ngIf="!leftSidenavIsOppened" class="z-depth-1" style="background:grey; color:white">
-      Open LEFT
-    </button>
-    <button fxFlex="200px" fxFlexOffset="20" type="button" md-button (click)="rightSideNav.open()" style="background-color: #FF4081; color: white" class="z-depth-1">
-      Open RIGHT
-    </button>
+  <nav class="dashboard-navbar">
+    <div>
+      <button type="button" md-button (click)="leftSideNav.open()" *ngIf="!leftSidenavIsOppened" class="z-depth-1" style="background:grey; color:white">
+        Open LEFT
+      </button>
+    </div>
+    <div>
+      <button type="button" md-button (click)="rightSideNav.open()" style="background-color: #FF4081; color: white" class="z-depth-1">
+        Open RIGHT
+      </button>
+    </div>
   </nav>
 
   <!-- MAIN CONTENT-->
