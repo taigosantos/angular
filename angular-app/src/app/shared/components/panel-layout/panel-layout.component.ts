@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
+import { Router, NavigationStart } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import { MdSidenav } from '@angular/material';
 
@@ -72,7 +72,7 @@ export class PanelLayoutComponent implements OnInit, OnDestroy {
 
   subscribeToRouteNavigationsEnd() {
     this.navigationEndSubscription = this.router.events
-      .filter(event => event instanceof NavigationEnd)
+      .filter(event => event instanceof NavigationStart)
       .subscribe(event => this.closeUnpinnedLeftSideNav());
   }
 

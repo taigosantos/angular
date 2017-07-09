@@ -1,4 +1,5 @@
-import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
+import { Component, OnInit, Output, Input } from '@angular/core';
+import { Subject } from 'rxjs/Subject';
 
 @Component({
   selector: 'app-header',
@@ -8,15 +9,15 @@ import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
 export class HeaderComponent {
 
   @Input() showLeftSideOpener: boolean;
-  @Output() leftSideNavOpenerClick = new EventEmitter();
-  @Output() rightSideNavOpenerClick = new EventEmitter();
+  @Output() leftSideNavOpenerClick = new Subject();
+  @Output() rightSideNavOpenerClick = new Subject();
 
   onLeftSideNavOpenerClick() {
-    this.leftSideNavOpenerClick.emit();
+    this.leftSideNavOpenerClick.next({ teste: 1 });
   }
 
   onRightSideNavOpenerClick() {
-    this.rightSideNavOpenerClick.emit();
+    this.rightSideNavOpenerClick.next({ teste: 2 });
   }
 
 }
