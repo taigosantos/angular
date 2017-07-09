@@ -20,12 +20,12 @@ Segue abaixo as funcionalidades suportadas pela aplicação:
 | AOT                                                       | Concluído     |
 | Internationalization (i18n)                               | Concluído     |
 | Localization (l10n)                                       | Concluído     |
-| Suporta à UI Materialize                                  | Concluído     |
+| Suporta à UI Material Design                              | Concluído     |
 
 ## Bibliotecas de Terceiros
 
-[Angular Material](https://material.angular.io)
-[Flex Layout](https://github.com/angular/flex-layout)
+- [Angular Material](https://material.angular.io)
+- [Flex Layout](https://github.com/angular/flex-layout)
 
 ## Wiki
 
