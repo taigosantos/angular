@@ -2,6 +2,12 @@
 
 Repositório com uma arquitetura completa base utilizando Angular a partir da versão 4+
 
+## Exemplo da Aplicação
+
+O exemplo da release mais recente está publicado nop link abaixo:
+
+[Exemplo da Aplicação Publicado](https://angular-app-52771.firebaseapp.com/pt-br/dashboard)
+
 ## Funcionalidades Suportadas
 
 Segue abaixo as funcionalidades suportadas pela aplicação:

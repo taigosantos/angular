@@ -1,9 +1,8 @@
 # CHANGELOG
 
-## UNRELEASED
+## 0.7.0
 
-- Testes de Internacionalização
-- Testes de formulários reativos com validação
+- Substituição do framework UI `ng2-materialize` pelo framework oficial [Angular Material](https://material.angular.io)
 - Adição dos scripts de configurções para publicação no serviço de hosting do [Firebase](https://firebase.google.com)
 
 ## 0.6.0
