@@ -92,6 +92,10 @@ export class PanelLayoutComponent implements OnInit, OnDestroy {
 
 }
 
+/**
+ * SideNav Modes
+ * @class SideNavMode
+ */
 class SideNavMode {
   static side: 'side' = 'side';
   static over: 'over' = 'over';
