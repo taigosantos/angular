@@ -24,7 +24,8 @@ Segue abaixo as funcionalidades suportadas pela aplicação:
 
 ## Bibliotecas de Terceiros
 
-[ng2-materialize](https://sherweb.github.io/ng2-materialize)
+[Angular Material](https://material.angular.io)
+[Flex Layout](https://github.com/angular/flex-layout)
 
 ## Wiki
 
