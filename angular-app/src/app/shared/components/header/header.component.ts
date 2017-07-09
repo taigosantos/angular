@@ -13,11 +13,11 @@ export class HeaderComponent {
   @Output() rightSideNavOpenerClick = new Subject();
 
   onLeftSideNavOpenerClick() {
-    this.leftSideNavOpenerClick.next({ teste: 1 });
+    this.leftSideNavOpenerClick.next();
   }
 
   onRightSideNavOpenerClick() {
-    this.rightSideNavOpenerClick.next({ teste: 2 });
+    this.rightSideNavOpenerClick.next();
   }
 
 }
