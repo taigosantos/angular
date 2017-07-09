@@ -34,17 +34,17 @@ export class PanelLayoutComponent implements OnInit, OnDestroy {
   }
 
   pinLeftSideNav() {
-    this.leftSideNav.mode = 'side';
+    this.leftSideNav.mode = SideNavMode.side;
     this.leftSideNav.opened = true;
   }
 
   unpinLeftSideNav() {
-    this.leftSideNav.mode = 'over';
+    this.leftSideNav.mode = SideNavMode.over;
     this.leftSideNav.opened = false;
   }
 
   isLeftSideNavPinned(): boolean {
-    return this.leftSideNav.mode === 'side';
+    return this.leftSideNav.mode === SideNavMode.side;
   }
 
   isLeftSideNavOpened(): boolean {
@@ -90,4 +90,10 @@ export class PanelLayoutComponent implements OnInit, OnDestroy {
     this.unSubscribeToRouteNavigationsEnd();
   }
 
+}
+
+class SideNavMode {
+  static side: 'side' = 'side';
+  static over: 'over' = 'over';
+  static push: 'push' = 'push';
 }
