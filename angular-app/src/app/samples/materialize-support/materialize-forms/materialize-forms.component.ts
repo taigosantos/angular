@@ -10,23 +10,17 @@ declare var $: any;
 })
 export class MaterializeFormsComponent implements OnInit {
 
-foods = [
-    {value: 'steak-0', viewValue: 'Steak'},
-    {value: 'pizza-1', viewValue: 'Pizza'},
-    {value: 'tacos-2', viewValue: 'Tacos'}
-  ];
-
-  // @ PROPERTIES
+  // PROPERTIES
 
   testForm: FormGroup;
 
-  // @ CONSTRUCTOR
+  // CONSTRUCTOR
 
   constructor(
     private formBuilder: FormBuilder
   ) { }
 
-  // @ EVENTS
+  // EVENTS
 
   ngOnInit() {
     this.testForm = this.formBuilder.group({
@@ -46,44 +40,14 @@ foods = [
 
   }
 
-  onCancel() {
+  onReset() {
     this.testForm.reset();
   }
 
-  // @ METHODS
+  // METHODS
 
   formIsValid() {
     return this.testForm.valid;
-  }
-
-  insertErrorStyle(formControlName: string): Object {
-    return {
-      'invalid': this.verifyInvalidAndTouchedControl(formControlName),
-      'valid': this.verifyValidAndTouchedControl(formControlName)
-    }
-  }
-
-  insertSelectErrorStyle(formControlName: string): Object {
-    return {
-      'invalid': this.verifyInvalidAndDirtyControl(formControlName),
-      'valid': this.verifyValidAndDirtyControl(formControlName)
-    }
-  }
-
-  verifyInvalidAndTouchedControl(formControlName: string): boolean {
-    return this.testForm.get(formControlName).invalid && this.testForm.get(formControlName).touched;
-  }
-
-  verifyValidAndTouchedControl(formControlName: string): boolean {
-    return this.testForm.get(formControlName).valid && this.testForm.get(formControlName).touched;
-  }
-
-  verifyInvalidAndDirtyControl(formControlName: string): boolean {
-    return this.testForm.get(formControlName).invalid && this.testForm.get(formControlName).dirty;
-  }
-
-  verifyValidAndDirtyControl(formControlName: string): boolean {
-    return this.testForm.get(formControlName).valid && this.testForm.get(formControlName).dirty;
   }
 
   nextInvalidError(formControlName: string, errorKey: string): boolean {
@@ -103,5 +67,5 @@ foods = [
   getMaxlengthErrorInfo(formControlName: string): any {
     return this.testForm.get(formControlName).errors['maxlength'];
   }
-
+  
 }

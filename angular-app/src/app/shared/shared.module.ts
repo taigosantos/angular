@@ -37,7 +37,9 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
     MdButtonModule,
     MdSidenavModule,
     MdListModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MdSelectModule,
+    MdOptionModule,
 
   ],
   declarations: [
@@ -68,6 +70,8 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
     MdSidenavModule,
     MdListModule,
     FlexLayoutModule,
+    MdSelectModule,
+    MdOptionModule,
 
     // Layouts components
 
