@@ -10,6 +10,12 @@ declare var $: any;
 })
 export class MaterializeFormsComponent implements OnInit {
 
+foods = [
+    {value: 'steak-0', viewValue: 'Steak'},
+    {value: 'pizza-1', viewValue: 'Pizza'},
+    {value: 'tacos-2', viewValue: 'Tacos'}
+  ];
+
   // @ PROPERTIES
 
   testForm: FormGroup;
@@ -32,9 +38,9 @@ export class MaterializeFormsComponent implements OnInit {
 
   onSubmit() {
 
-    if (!this.testForm.valid)
+    if (!this.testForm.valid) {
       console.log('Este formulário está inválido');
-
+    }
 
     console.log(this.testForm);
 
@@ -42,14 +48,11 @@ export class MaterializeFormsComponent implements OnInit {
 
   onCancel() {
     this.testForm.reset();
-
-    let a = this.testForm.get('genre');
-
   }
 
   // @ METHODS
 
-  formIsValid(){
+  formIsValid() {
     return this.testForm.valid;
   }
 
@@ -59,7 +62,7 @@ export class MaterializeFormsComponent implements OnInit {
       'valid': this.verifyValidAndTouchedControl(formControlName)
     }
   }
-  
+
   insertSelectErrorStyle(formControlName: string): Object {
     return {
       'invalid': this.verifyInvalidAndDirtyControl(formControlName),
@@ -86,8 +89,9 @@ export class MaterializeFormsComponent implements OnInit {
   nextInvalidError(formControlName: string, errorKey: string): boolean {
     const controlErrors: ValidationErrors = this.testForm.get(formControlName).errors;
 
-    if (controlErrors == null || Object.keys(controlErrors).length == 0)
+    if (controlErrors == null || Object.keys(controlErrors).length === 0) {
       return false;
+    }
 
     return Object.keys(controlErrors)[0] === errorKey;
   }

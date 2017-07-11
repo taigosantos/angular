@@ -1,10 +1,58 @@
 <h1>Materialize Forms</h1>
 
-<div class="row">
+<form [formGroup]="testForm" (submit)="onSubmit()" fxLayout="column" fxLayoutGap="20px">
 
-  <form [formGroup]="testForm" (submit)="onSubmit()" class="col s6">
+    <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="20px">
 
-    <div class="row">
+        <md-input-container fxFlex="40">
+            <input mdInput formControlName="name" i18n-placeholder placeholder="Name" />
+            <md-error *ngIf="nextInvalidError('name','required')" i18n>Required field</md-error>
+            <md-error *ngIf="nextInvalidError('name','minlength')">
+                <span i18n>The field must be at least</span> {{ getMinlengthErrorInfo('name').requiredLength}}
+                <span i18n>character(s)</span> (<span i18n>currently:</span> {{ getMinlengthErrorInfo('name').actualLength }})
+            </md-error>
+            <md-error *ngIf="nextInvalidError('name','maxlength')">
+                <span i18n>The field must be a maximum of</span> {{ getMaxlengthErrorInfo('name').requiredLength}}
+                <span i18n>character(s)</span> (<span i18n>currently:</span> {{ getMaxlengthErrorInfo('name').actualLength }})
+            </md-error>
+        </md-input-container>
+
+        <md-input-container fxFlex="60">
+            <input mdInput formControlName="email" i18n-placeholder placeholder="E-mail" />
+            <md-error *ngIf="nextInvalidError('email','required')" i18n>Required field</md-error>
+            <md-error *ngIf="nextInvalidError('email','email')" i18n>Invalid e-mail</md-error>
+            <md-error *ngIf="nextInvalidError('email','maxlength')">
+                <span i18n>The field must be a maximum of</span> {{ getMaxlengthErrorInfo('email').requiredLength}}
+                <span i18n>character(s)</span> (<span i18n>currently:</span> {{ getMaxlengthErrorInfo('email').actualLength}})
+            </md-error>
+        </md-input-container>
+
+    </div>
+
+    <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="20px">
+
+        <!--<md-select formControlName="genre" placeholder="Gender">
+            <md-option [value]="'m'" i18n>Male</md-option>
+            <md-option [value]="'f'" i18n>Female</md-option>
+            <md-option [value]="'o'" i18n>Other</md-option>
+        </md-select>-->
+
+        <md-select placeholder="Favorite food">
+            <md-option *ngFor="let food of foods">
+                {{ food.viewValue }}
+            </md-option>
+        </md-select>
+
+    </div>
+
+    <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="10px">
+
+        <button md-raised-button type="submit" [disabled]="!formIsValid()" color="primary" i18n>Save Form</button>
+        <button md-button (click)="onCancel()" i18n>Reset Form</button>
+
+    </div>
+
+    <!--<div class="row">
       <div class="input-field col s12" [ngClass]="insertErrorStyle('name')">
         <input id="name" formControlName="name" type="text" maxlength="10" i18n-placeholder placeholder="Insert your name here">
         <label for="name" class="active" i18n>Name:</label>
@@ -26,7 +74,7 @@
           <span *ngIf="nextInvalidError('email','maxlength')"><span i18n>The field must be a maximum of</span> {{ getMaxlengthErrorInfo('email').requiredLength}} <span i18n>character(s)</span> (<span i18n>currently:</span> {{ getMaxlengthErrorInfo('email').actualLength }})</span>
         </span>
       </div>
-    </div>
+    </div>-->
 
     <!--<div class="row">
       <mz-select-container class="col s12" [ngClass]="insertSelectErrorStyle('genre')">
@@ -40,18 +88,16 @@
         </span>
       </mz-select-container>
     </div>-->
-
-    <div class="row">
-      <div class="input-field col s4">
-        <button class="btn waves-effect waves-light" type="submit" name="action" [disabled]="!formIsValid()" i18n>Submit
+    <!--
+        <div class="row">
+            <div class="input-field col s4">
+                <button class="btn waves-effect waves-light" type="submit" name="action" [disabled]="!formIsValid()" i18n>Submit
           <i class="fa fa-free-code-camp" aria-hidden="true"></i>
         </button>
-      </div>
-      <div class="input-field col s4 offset-s1">
-        <input type="button" value="Cancelar" (click)="onCancel()" class="waves-effect waves-light btn btn-flat" i18n>
-      </div>
-    </div>
+            </div>
+            <div class="input-field col s4 offset-s1">
+                <input type="button" value="Cancelar" (click)="onCancel()" class="waves-effect waves-light btn btn-flat" i18n>
+            </div>
+        </div>-->
 
-  </form>
-
-</div>
+</form>
