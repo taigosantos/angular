@@ -67,5 +67,5 @@ export class MaterializeFormsComponent implements OnInit {
   getMaxlengthErrorInfo(formControlName: string): any {
     return this.testForm.get(formControlName).errors['maxlength'];
   }
-  
+
 }
