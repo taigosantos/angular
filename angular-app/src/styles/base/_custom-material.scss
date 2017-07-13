@@ -1,0 +1,5 @@
+// Let dropdowns with errors with a line of 2px in
+// height like the inputs
+.mat-select.ng-invalid.ng-touched .mat-select-underline {
+  height: 2px;
+}

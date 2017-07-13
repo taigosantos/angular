@@ -12,6 +12,7 @@ import {
   MdListModule,
   MdSelectModule,
   MdOptionModule,
+  MdRadioGroup
 } from '@angular/material';
 
 import { PanelLayoutComponent } from './components/panel-layout/panel-layout.component';

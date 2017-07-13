@@ -1,10 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {
-  FormGroup,
-  FormBuilder,
-  Validators,
-  ValidationErrors
-} from '@angular/forms';
+import { FormGroup, FormBuilder, Validators, ValidationErrors } from '@angular/forms';
 
 declare var $: any;
 
@@ -26,15 +21,11 @@ export class MaterializeFormsComponent implements OnInit {
 
   ngOnInit() {
     this.testForm = this.formBuilder.group({
-      name: [
-        null,
-        [Validators.required, Validators.minLength(3), Validators.maxLength(10)]
-      ],
-      email: [
-        null,
-        [Validators.required, Validators.email, Validators.maxLength(60)]
-      ],
-      genre: [null, Validators.required]
+      name: [null, [Validators.required, Validators.minLength(3), Validators.maxLength(10)]],
+      email: [null, [Validators.required, Validators.email, Validators.maxLength(60)]],
+      genre: [null, Validators.required],
+      acceptTerms: [null, Validators.requiredTrue],
+      status: [null, Validators.required]
     });
   }
 
@@ -66,9 +57,8 @@ export class MaterializeFormsComponent implements OnInit {
       return false;
     }
 
-    const controlErrors: ValidationErrors = this.testForm.get(formControlName)
-      .errors;
-
+    const controlErrors: ValidationErrors = this.testForm.get(formControlName).errors;
+console.log(controlErrors);
     if (controlErrors == null || Object.keys(controlErrors).length === 0) {
       return false;
     }
