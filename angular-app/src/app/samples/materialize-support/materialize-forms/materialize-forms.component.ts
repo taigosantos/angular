@@ -1,5 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder, Validators, ValidationErrors } from '@angular/forms';
+import {
+  FormGroup,
+  FormBuilder,
+  Validators,
+  ValidationErrors
+} from '@angular/forms';
 
 declare var $: any;
 
@@ -9,35 +14,36 @@ declare var $: any;
   styleUrls: ['./materialize-forms.component.scss']
 })
 export class MaterializeFormsComponent implements OnInit {
-
   // PROPERTIES
 
   testForm: FormGroup;
 
   // CONSTRUCTOR
 
-  constructor(
-    private formBuilder: FormBuilder
-  ) { }
+  constructor(private formBuilder: FormBuilder) {}
 
   // EVENTS
 
   ngOnInit() {
     this.testForm = this.formBuilder.group({
-      name: [null, [Validators.required, Validators.minLength(3), Validators.maxLength(10)]],
-      email: [null, [Validators.required, Validators.email, Validators.maxLength(60)]],
+      name: [
+        null,
+        [Validators.required, Validators.minLength(3), Validators.maxLength(10)]
+      ],
+      email: [
+        null,
+        [Validators.required, Validators.email, Validators.maxLength(60)]
+      ],
       genre: [null, Validators.required]
     });
   }
 
   onSubmit() {
-
     if (!this.testForm.valid) {
       console.log('Este formulário está inválido');
     }
 
     console.log(this.testForm);
-
   }
 
   onReset() {
@@ -50,8 +56,18 @@ export class MaterializeFormsComponent implements OnInit {
     return this.testForm.valid;
   }
 
+  isFieldInvalid(formControlName: string): boolean {
+    const formControl = this.testForm.get(formControlName);
+    return formControl.invalid && (formControl.touched || formControl.dirty);
+  }
+
   nextInvalidError(formControlName: string, errorKey: string): boolean {
-    const controlErrors: ValidationErrors = this.testForm.get(formControlName).errors;
+    if (!this.isFieldInvalid(formControlName)) {
+      return false;
+    }
+
+    const controlErrors: ValidationErrors = this.testForm.get(formControlName)
+      .errors;
 
     if (controlErrors == null || Object.keys(controlErrors).length === 0) {
       return false;
@@ -67,5 +83,4 @@ export class MaterializeFormsComponent implements OnInit {
   getMaxlengthErrorInfo(formControlName: string): any {
     return this.testForm.get(formControlName).errors['maxlength'];
   }
-
 }

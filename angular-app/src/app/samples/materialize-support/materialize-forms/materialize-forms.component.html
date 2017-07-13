@@ -31,12 +31,21 @@
 
   <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="20px">
 
-    <md-select formControlName="genre" placeholder="Gender">
-      <md-option i18n>Select</md-option>
-      <md-option value="m" i18n>Male</md-option>
-      <md-option value="f" i18n>Female</md-option>
-      <md-option value="o" i18n>Other</md-option>
-    </md-select>
+    <div fxFlex="40" class="mat-input-container">
+      <div class="mat-input-wrapper">
+        <md-select formControlName="genre" placeholder="Gender" style="width:100%">
+          <md-option i18n>Not Defined</md-option>
+          <md-option value="m" i18n>Male</md-option>
+          <md-option value="f" i18n>Female</md-option>
+          <md-option value="o" i18n>Other</md-option>
+        </md-select>
+        <div class="mat-input-subscript-wrapper">
+          <div class="ng-tns-c8-0 ng-trigger ng-trigger-transitionMessages" style="opacity: 1; transform: translateY(0%);">
+            <md-error *ngIf="nextInvalidError('genre','required')" i18n>This field is required</md-error>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 
@@ -47,6 +56,6 @@
 
   </div>
 
-  
+
 
 </form>
