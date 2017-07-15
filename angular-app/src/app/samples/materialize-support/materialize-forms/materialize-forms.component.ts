@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, ValidationErrors } from '@angular/forms';
+import { Observable } from 'rxjs/Observable';
 
 declare var $: any;
 
@@ -9,11 +10,13 @@ declare var $: any;
   styleUrls: ['./materialize-forms.component.scss']
 })
 export class MaterializeFormsComponent implements OnInit {
-
   // PROPERTIES
 
   testForm: FormGroup;
+  filteredCountries: Observable<any[]>;
 
+  options = [new User(1, 'Mary'), new User(2, 'Shelley'), new User(3, 'Igor')];
+  filteredOptions: Observable<User[]>;
   // CONSTRUCTOR
 
   constructor(private formBuilder: FormBuilder) {}
@@ -21,13 +24,8 @@ export class MaterializeFormsComponent implements OnInit {
   // EVENTS
 
   ngOnInit() {
-    this.testForm = this.formBuilder.group({
-      name: [null, [Validators.required, Validators.minLength(3), Validators.maxLength(10)]],
-      email: [null, [Validators.required, Validators.email, Validators.maxLength(60)]],
-      genre: [null, Validators.required],
-      acceptTerms: [null, Validators.requiredTrue],
-      status: [null, Validators.required]
-    });
+    this.configureForm();
+    this.configureCountriesField();
   }
 
   onSubmit() {
@@ -44,6 +42,53 @@ export class MaterializeFormsComponent implements OnInit {
 
   // METHODS
 
+  configureForm() {
+    this.testForm = this.formBuilder.group({
+      name: [null, [Validators.required, Validators.minLength(3), Validators.maxLength(10)]],
+      email: [null, [Validators.required, Validators.email, Validators.maxLength(60)]],
+      genre: [null, Validators.required],
+      acceptTerms: [null, Validators.requiredTrue],
+      status: [null, Validators.required],
+      country: [null, Validators.required]
+    });
+  }
+
+  configureCountriesField() {
+    this.filteredOptions = this.testForm.get('country').valueChanges
+      .startWith(null)
+      .map(user => (user && typeof user === 'object' ? user.name : user))
+      .map(name => (name ? this.filter(name) : this.options.slice()));
+  }
+
+  filter(name: string): User[] {
+    return this.options.filter(option => new RegExp(`^${name}`, 'gi').test(option.name));
+  }
+
+  displayFn(user: User): string | User {
+    return user ? user.name : user;
+  }
+
+  // configureCountriesField() {
+  //   const countries = [{ id: 1, name: 'Brazil' }, { id: 2, name: 'United States' }, { id: 3, name: 'France' }];
+
+  //   this.filteredCountries = this.testForm
+  //     .get('country')
+  //     .valueChanges.startWith(null)
+  //     .map(country => country && typeof country === 'object' ? country.name : country)
+  //     .map(name => {
+  //       if (name) {
+  //         return countries.filter(country => new RegExp(`^${name}`, 'gi').test(country.name));
+  //       } else {
+  //         return countries.slice();
+  //       }
+  //     });
+  // }
+
+  // displayCountry(country: any): string {
+  //   console.log(country);
+  //   return country ? country.name : country;
+  // }
+
   formIsValid() {
     return this.testForm.valid;
   }
@@ -59,7 +104,7 @@ export class MaterializeFormsComponent implements OnInit {
     }
 
     const controlErrors: ValidationErrors = this.testForm.get(formControlName).errors;
-console.log(controlErrors);
+    console.log(controlErrors);
     if (controlErrors == null || Object.keys(controlErrors).length === 0) {
       return false;
     }
@@ -74,4 +119,8 @@ console.log(controlErrors);
   getMaxlengthErrorInfo(formControlName: string): any {
     return this.testForm.get(formControlName).errors['maxlength'];
   }
+}
+
+class User {
+  constructor(public id: number, public name: string) {}
 }

@@ -12,7 +12,8 @@ import {
   MdListModule,
   MdSelectModule,
   MdOptionModule,
-  MdRadioModule
+  MdRadioModule,
+  MdAutocompleteModule
 } from '@angular/material';
 
 import { PanelLayoutComponent } from './components/panel-layout/panel-layout.component';
@@ -22,7 +23,6 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
 
 @NgModule({
   imports: [
-
     // Angular Modules
 
     CommonModule,
@@ -41,24 +41,21 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
     MdSelectModule,
     MdOptionModule,
     MdRadioModule,
+    MdAutocompleteModule,
 
     // Flex Layout Modules
 
     FlexLayoutModule
-
   ],
   declarations: [
-
     // Layout Components
 
     PageLayoutComponent,
     PanelLayoutComponent,
     HeaderComponent,
-    MainMenuComponent,
-
+    MainMenuComponent
   ],
   exports: [
-
     // Angular Modules
 
     CommonModule,
@@ -77,6 +74,7 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
     MdSelectModule,
     MdOptionModule,
     MdRadioModule,
+    MdAutocompleteModule,
 
     // Flex Layout Modules
 
@@ -87,7 +85,6 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
     PageLayoutComponent,
     PanelLayoutComponent,
     MainMenuComponent
-
   ]
 })
-export class SharedModule { }
+export class SharedModule {}
