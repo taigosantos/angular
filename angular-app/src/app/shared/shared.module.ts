@@ -12,7 +12,7 @@ import {
   MdListModule,
   MdSelectModule,
   MdOptionModule,
-  MdRadioGroup
+  MdRadioModule
 } from '@angular/material';
 
 import { PanelLayoutComponent } from './components/panel-layout/panel-layout.component';
@@ -30,7 +30,7 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
     ReactiveFormsModule,
     RouterModule,
 
-    // Vendor Modules
+    // Material 2 Modules
 
     MdInputModule,
     MdCheckboxModule,
@@ -38,9 +38,13 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
     MdButtonModule,
     MdSidenavModule,
     MdListModule,
-    FlexLayoutModule,
     MdSelectModule,
     MdOptionModule,
+    MdRadioModule,
+
+    // Flex Layout Modules
+
+    FlexLayoutModule
 
   ],
   declarations: [
@@ -62,7 +66,7 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
     ReactiveFormsModule,
     RouterModule,
 
-    // Vendor Modules
+    // Material 2 Modules
 
     MdCheckboxModule,
     MdInputModule,
@@ -70,9 +74,13 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
     MdButtonModule,
     MdSidenavModule,
     MdListModule,
-    FlexLayoutModule,
     MdSelectModule,
     MdOptionModule,
+    MdRadioModule,
+
+    // Flex Layout Modules
+
+    FlexLayoutModule,
 
     // Layouts components
 

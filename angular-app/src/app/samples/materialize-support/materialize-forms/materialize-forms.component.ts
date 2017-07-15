@@ -9,6 +9,7 @@ declare var $: any;
   styleUrls: ['./materialize-forms.component.scss']
 })
 export class MaterializeFormsComponent implements OnInit {
+
   // PROPERTIES
 
   testForm: FormGroup;

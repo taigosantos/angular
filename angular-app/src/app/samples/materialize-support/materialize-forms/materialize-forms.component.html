@@ -4,7 +4,7 @@
 
   <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap="15px">
 
-    <md-input-container fxFlex>
+    <md-input-container fxFlex="33">
       <input mdInput formControlName="name" i18n-placeholder placeholder="Name" />
       <md-error *ngIf="nextInvalidError('name','required')" i18n>Required field</md-error>
       <md-error *ngIf="nextInvalidError('name','minlength')">
@@ -17,7 +17,7 @@
       </md-error>
     </md-input-container>
 
-    <md-input-container fxFlex>
+    <md-input-container fxFlex="33">
       <input mdInput formControlName="email" i18n-placeholder placeholder="E-mail" />
       <md-error *ngIf="nextInvalidError('email','required')" i18n>Required field</md-error>
       <md-error *ngIf="nextInvalidError('email','email')" i18n>Invalid e-mail</md-error>
@@ -27,7 +27,7 @@
       </md-error>
     </md-input-container>
 
-    <div class="mat-input-container" fxFlex>
+    <div class="mat-input-container" fxFlex="33">
       <div class="mat-input-wrapper select-wrapper">
         <md-select formControlName="genre" placeholder="Gender" style="width:100%">
           <md-option i18n>Not Defined</md-option>
@@ -45,7 +45,7 @@
 
   <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap="15px">
 
-    <div class="mat-input-container" fxFlex>
+    <div class="mat-input-container" fxFlex="66">
       <div class="mat-input-wrapper select-wrapper">
         <md-checkbox mdInput formControlName="acceptTerms">Accept Terms</md-checkbox>
         <div class="mat-input-subscript-wrapper">
@@ -54,15 +54,16 @@
       </div>
     </div>
 
-    <div class="mat-input-container" fxFlex>
+    <div class="mat-input-container" fxFlex="33">
       <div class="mat-input-wrapper select-wrapper">
-        <md-radio-group name="status" formControlName="status">
+        <label for="">Teste</label><br />
+        <md-radio-group formControlName="status">
           <md-radio-button value="1">Option 1</md-radio-button>
           <md-radio-button value="2">Option 2</md-radio-button>
         </md-radio-group>
-        <!-- <div class="mat-input-subscript-wrapper">
-          <md-error *ngIf="nextInvalidError('status','required')" i18n>This value need to be true</md-error>
-        </div> -->
+        <div class="mat-input-subscript-wrapper">
+          <md-error *ngIf="nextInvalidError('status','required')" i18n>This field is required</md-error>
+        </div>
       </div>
     </div>
 
