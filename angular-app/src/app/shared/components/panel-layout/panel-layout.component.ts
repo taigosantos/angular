@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { Router, NavigationStart } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import { MdSidenav } from '@angular/material';
+import { ObservableMedia, MediaChange } from '@angular/flex-layout';
 
 @Component({
   selector: 'app-panel-layout',
@@ -9,6 +10,8 @@ import { MdSidenav } from '@angular/material';
   styleUrls: ['./panel-layout.component.scss']
 })
 export class PanelLayoutComponent implements OnInit, OnDestroy {
+  
+
 
   // PROPERTIES
 
@@ -19,8 +22,8 @@ export class PanelLayoutComponent implements OnInit, OnDestroy {
   // CONSTRUCTOR
 
   constructor(
-    private router: Router) {
-    this.subscribeToRouteNavigationsEnd();
+    private router: Router,
+    public media: ObservableMedia) {
   }
 
   // LEFT SIDENAV METHODS
@@ -58,6 +61,12 @@ export class PanelLayoutComponent implements OnInit, OnDestroy {
     }
   }
 
+  initLeftSideNavPinnedIfMatchConditions() {
+    if (!this.media.isActive('xs')) {
+      this.pinLeftSideNav();
+    }
+  }
+
   // RIGHT SIDENAV METHODS
 
   openRightSideNav() {
@@ -83,7 +92,7 @@ export class PanelLayoutComponent implements OnInit, OnDestroy {
   // COMPONENT EVENTS
 
   ngOnInit() {
-    this.pinLeftSideNav();
+    this.initLeftSideNavPinnedIfMatchConditions();
   }
 
   ngOnDestroy() {
