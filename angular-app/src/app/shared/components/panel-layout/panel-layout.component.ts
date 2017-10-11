@@ -1,20 +1,22 @@
 import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { Router, NavigationStart } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
-import { MdSidenav, MdButton } from '@angular/material';
+import { MatSidenav, MatButton } from '@angular/material';
 import { ObservableMedia, MediaChange } from '@angular/flex-layout';
+
+import 'rxjs/add/operator/filter';
 
 @Component({
   selector: 'app-panel-layout',
   templateUrl: './panel-layout.component.html',
   styleUrls: ['./panel-layout.component.scss']
 })
-export class PanelLayoutComponent implements OnInit, OnDestroy {
+export class PanelLayoutComponent implements OnInit {
 
   // PROPERTIES
 
-  @ViewChild('leftSideNav') leftSideNav: MdSidenav;
-  @ViewChild('rightSideNav') rightSideNav: MdSidenav;
+  @ViewChild('leftSideNav') leftSideNav: MatSidenav;
+  @ViewChild('rightSideNav') rightSideNav: MatSidenav;
 
   mediaChangeSubscription: Subscription;
   navigationEndSubscription: Subscription;
@@ -93,14 +95,6 @@ export class PanelLayoutComponent implements OnInit, OnDestroy {
     });
   }
 
-  unsubscribeToRouteNavigationsEnd() {
-    this.navigationEndSubscription.unsubscribe();
-  }
-
-  unsubscribeToMediaChange() {
-    this.mediaChangeSubscription.unsubscribe();
-  }
-
   isExtraSmallMedia(): boolean {
     return this.media.isActive('xs');
   }
@@ -108,14 +102,11 @@ export class PanelLayoutComponent implements OnInit, OnDestroy {
   // COMPONENT EVENTS
 
   ngOnInit() {
+    this.subscribeToRouteNavigationsEnd();
     this.initLeftSideNavPinnedIfMatchConditions();
     this.subscribeToMediaChange();
   }
-
-  ngOnDestroy() {
-    this.unsubscribeToRouteNavigationsEnd();
-  }
-
+  
 }
 
 /**

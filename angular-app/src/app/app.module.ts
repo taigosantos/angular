@@ -12,6 +12,7 @@ import { CoreModule } from './core/core.module';
 
 // application components
 import { AppComponent } from './app.component';
+import { MATERIAL_COMPATIBILITY_MODE } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,9 @@ import { AppComponent } from './app.component';
     CoreModule
 
   ],
-  providers: [],
+  providers: [
+    {provide: MATERIAL_COMPATIBILITY_MODE, useValue: true},
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

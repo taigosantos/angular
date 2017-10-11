@@ -4,16 +4,16 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {
-  MdCheckboxModule,
-  MdInputModule,
-  MdCardModule,
-  MdButtonModule,
-  MdSidenavModule,
-  MdListModule,
-  MdSelectModule,
-  MdOptionModule,
-  MdRadioModule,
-  MdAutocompleteModule
+  MatCheckboxModule,
+  MatInputModule,
+  MatCardModule,
+  MatButtonModule,
+  MatSidenavModule,
+  MatListModule,
+  MatSelectModule,
+  MatOptionModule,
+  MatRadioModule,
+  MatAutocompleteModule
 } from '@angular/material';
 
 import { PanelLayoutComponent } from './components/panel-layout/panel-layout.component';
@@ -32,16 +32,16 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
 
     // Material 2 Modules
 
-    MdInputModule,
-    MdCheckboxModule,
-    MdCardModule,
-    MdButtonModule,
-    MdSidenavModule,
-    MdListModule,
-    MdSelectModule,
-    MdOptionModule,
-    MdRadioModule,
-    MdAutocompleteModule,
+    MatInputModule,
+    MatCheckboxModule,
+    MatCardModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatListModule,
+    MatSelectModule,
+    MatOptionModule,
+    MatRadioModule,
+    MatAutocompleteModule,
 
     // Flex Layout Modules
 
@@ -65,16 +65,16 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
 
     // Material 2 Modules
 
-    MdCheckboxModule,
-    MdInputModule,
-    MdCardModule,
-    MdButtonModule,
-    MdSidenavModule,
-    MdListModule,
-    MdSelectModule,
-    MdOptionModule,
-    MdRadioModule,
-    MdAutocompleteModule,
+    MatCheckboxModule,
+    MatInputModule,
+    MatCardModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatListModule,
+    MatSelectModule,
+    MatOptionModule,
+    MatRadioModule,
+    MatAutocompleteModule,
 
     // Flex Layout Modules
 

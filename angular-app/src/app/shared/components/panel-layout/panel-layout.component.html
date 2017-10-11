@@ -1,16 +1,16 @@
-<md-sidenav-container class="dashboard-container">
+<mat-sidenav-container class="dashboard-container">
 
   <!--LEFT SIDENAV -->
-  <md-sidenav #leftSideNav class="sidenav left-sidenav">
+  <mat-sidenav #leftSideNav class="sidenav left-sidenav">
     <h3>LEFT SideNav</h3>
-    <button type="button" md-button (click)="closeLeftSideNav()" *ngIf="!isLeftSideNavPinned()" style="background-color: #FF4081; color: white"
+    <button type="button" mat-button (click)="closeLeftSideNav()" *ngIf="!isLeftSideNavPinned()" style="background-color: #FF4081; color: white"
       class="z-depth-1">
       close LEFT
     </button>
 
     <br />
 
-    <button type="button" md-button (click)="pinLeftSideNav()" *ngIf="!isLeftSideNavPinned() && !isExtraSmallMedia()" style="background-color: #FF4081; color: white"
+    <button type="button" mat-button (click)="pinLeftSideNav()" *ngIf="!isLeftSideNavPinned() && !isExtraSmallMedia()" style="background-color: #FF4081; color: white"
       class="z-depth-1">
       <svg style="width:16px;height:16px" viewBox="0 0 24 24">
         <path fill="#000000" d="M16,12V4H17V2H7V4H8V12L6,14V16H11.2V22H12.8V16H18V14L16,12Z" />
@@ -18,7 +18,7 @@
       <span>Pin</span>
     </button>
 
-    <button type="button" md-button (click)="unpinLeftSideNav()" *ngIf="isLeftSideNavPinned() && !isExtraSmallMedia()" style="background-color: #FF4081; color: white"
+    <button type="button" mat-button (click)="unpinLeftSideNav()" *ngIf="isLeftSideNavPinned() && !isExtraSmallMedia()" style="background-color: #FF4081; color: white"
       class="z-depth-1">
       <svg style="width:16px;height:16px" viewBox="0 0 24 24">
         <path fill="#000000" d="M2,5.27L3.28,4L20,20.72L18.73,22L12.8,16.07V22H11.2V16H6V14L8,12V11.27L2,5.27M16,12L18,14V16H17.82L8,6.18V4H7V2H17V4H16V12Z"
@@ -32,15 +32,15 @@
 
     <app-main-menu></app-main-menu>
 
-  </md-sidenav>
+  </mat-sidenav>
 
   <!--RIGHT SIDENAV -->
-  <md-sidenav #rightSideNav align="end" class="sidenav right-sidenav">
+  <mat-sidenav #rightSideNav align="end" class="sidenav right-sidenav">
     RIGHT SideNav.
-    <button type="button" md-button (click)="closeRightSideNav()" style="background-color: #FF4081; color: white" class="z-depth-1">
+    <button type="button" mat-button (click)="closeRightSideNav()" style="background-color: #FF4081; color: white" class="z-depth-1">
       close RIGHT
     </button>
-  </md-sidenav>
+  </mat-sidenav>
 
   <!-- NAVBAR -->
   <app-header [showLeftSideOpener]="!isLeftSideNavOpened()" (leftSideNavOpenerClick)="openLeftSideNav()" (rightSideNavOpenerClick)="openRightSideNav()"></app-header>
@@ -50,4 +50,4 @@
     <router-outlet></router-outlet>
   </div>
 
-</md-sidenav-container>
+</mat-sidenav-container>

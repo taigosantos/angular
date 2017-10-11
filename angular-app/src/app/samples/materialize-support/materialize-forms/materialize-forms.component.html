@@ -4,88 +4,89 @@
 
   <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap="15px">
 
-    <md-input-container fxFlex="33">
-      <input mdInput formControlName="name" i18n-placeholder placeholder="Name" />
-      <md-error *ngIf="nextInvalidError('name','required')" i18n>Required field</md-error>
-      <md-error *ngIf="nextInvalidError('name','minlength')">
+    <mat-form-field fxFlex="33">
+      <input matInput formControlName="name" i18n-placeholder placeholder="Name" maxlength="10" />
+      <mat-error *ngIf="nextInvalidError('name','required')" i18n>Required field</mat-error>
+      <mat-error *ngIf="nextInvalidError('name','minlength')">
         <span i18n>The field must be at least</span> {{ getMinlengthErrorInfo('name').requiredLength}}
-        <span i18n>character(s)</span> (<span i18n>currently:</span> {{ getMinlengthErrorInfo('name').actualLength }})
-      </md-error>
-      <md-error *ngIf="nextInvalidError('name','maxlength')">
+        <span i18n>character(s)</span> (
+        <span i18n>currently:</span> {{ getMinlengthErrorInfo('name').actualLength }})
+      </mat-error>
+      <mat-error *ngIf="nextInvalidError('name','maxlength')">
         <span i18n>The field must be a maximum of</span> {{ getMaxlengthErrorInfo('name').requiredLength}}
-        <span i18n>character(s)</span> (<span i18n>currently:</span> {{ getMaxlengthErrorInfo('name').actualLength }})
-      </md-error>
-    </md-input-container>
+        <span i18n>character(s)</span> (
+        <span i18n>currently:</span> {{ getMaxlengthErrorInfo('name').actualLength }})
+      </mat-error>
+    </mat-form-field>
 
-    <md-input-container fxFlex="33">
-      <input mdInput formControlName="email" i18n-placeholder placeholder="E-mail" />
-      <md-error *ngIf="nextInvalidError('email','required')" i18n>Required field</md-error>
-      <md-error *ngIf="nextInvalidError('email','email')" i18n>Invalid e-mail</md-error>
-      <md-error *ngIf="nextInvalidError('email','maxlength')">
+    <mat-form-field fxFlex="33">
+      <input matInput formControlName="email" i18n-placeholder placeholder="E-mail" />
+      <mat-error *ngIf="nextInvalidError('email','required')" i18n>Required field</mat-error>
+      <mat-error *ngIf="nextInvalidError('email','email')" i18n>Invalid e-mail</mat-error>
+      <mat-error *ngIf="nextInvalidError('email','maxlength')">
         <span i18n>The field must be a maximum of</span> {{ getMaxlengthErrorInfo('email').requiredLength}}
-        <span i18n>character(s)</span> (<span i18n>currently:</span> {{ getMaxlengthErrorInfo('email').actualLength}})
-      </md-error>
-    </md-input-container>
-
-    <div class="mat-input-container" fxFlex="33">
-      <div class="mat-input-wrapper select-wrapper">
-        <md-select formControlName="genre" placeholder="Gender" style="width:100%">
-          <md-option i18n>Not Defined</md-option>
-          <md-option value="m" i18n>Male</md-option>
-          <md-option value="f" i18n>Female</md-option>
-          <md-option value="o" i18n>Other</md-option>
-        </md-select>
-        <div class="mat-input-subscript-wrapper">
-          <md-error *ngIf="nextInvalidError('genre','required')" i18n>This field is required</md-error>
-        </div>
-      </div>
-    </div>
+        <span i18n>character(s)</span> (
+        <span i18n>currently:</span> {{ getMaxlengthErrorInfo('email').actualLength}})
+      </mat-error>
+    </mat-form-field>
+    
+    <mat-form-field fxFlex="33">
+      <mat-select formControlName="genre" placeholder="Gender" style="width:100%">
+          <mat-option i18n>Not Defined</mat-option>
+          <mat-option value="m" i18n>Male</mat-option>
+          <mat-option value="f" i18n>Female</mat-option>
+          <mat-option value="o" i18n>Other</mat-option>
+        </mat-select>
+        <mat-error *ngIf="nextInvalidError('genre','required')" i18n>This field is required</mat-error>
+    </mat-form-field>
 
   </div>
 
   <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap="15px">
 
-    <!-- <md-input-container fxFlex="33">
-      <input mdInput [mdAutocomplete]="auto" formControlName="country" i18n-placeholder placeholder="Country" />
-    </md-input-container>
-    <md-autocomplete #auto="mdAutocomplete" [displayWith]="displayFn">
-      <md-option *ngFor="let country of filteredOptions | async" [value]="country.id">
+    <!-- <mat-form-field fxFlex="33">
+      <input matInput [matAutocomplete]="auto" formControlName="country" i18n-placeholder placeholder="Country" />
+    </mat-form-field>
+    <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+      <mat-option *ngFor="let country of filteredOptions | async" [value]="country.id">
         {{ country.name }}
-      </md-option>
-    </md-autocomplete> -->
+      </mat-option>
+    </mat-autocomplete> -->
 
-    <md-input-container>
-      <input type="text" mdInput formControlName="country" [mdAutocomplete]="auto">
-    </md-input-container>
 
-    <md-autocomplete #auto="mdAutocomplete" [displayWith]="displayFn">
-      <md-option *ngFor="let option of filteredOptions | async" [value]="option">
+    <mat-form-field>
+      <input type="text" matInput formControlName="country" [matAutocomplete]="auto">
+    </mat-form-field>
+
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
         {{ option.name }}
-      </md-option>
-    </md-autocomplete>
+      </mat-option>
+    </mat-autocomplete>
 
   </div>
 
   <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap="15px">
 
-    <div class="mat-input-container" fxFlex="66">
+    <div class="mat-form-field" fxFlex="66">
       <div class="mat-input-wrapper select-wrapper">
-        <md-checkbox mdInput formControlName="acceptTerms">Accept Terms</md-checkbox>
+        <mat-checkbox matInput formControlName="acceptTerms">Accept Terms</mat-checkbox>
         <div class="mat-input-subscript-wrapper">
-          <md-error *ngIf="nextInvalidError('acceptTerms','required')" i18n>This value need to be true</md-error>
+          <mat-error *ngIf="nextInvalidError('acceptTerms','required')" i18n>This value need to be true</mat-error>
         </div>
       </div>
     </div>
 
-    <div class="mat-input-container" fxFlex="33">
+    <div class="mat-form-field" fxFlex="33">
       <div class="mat-input-wrapper select-wrapper">
-        <label for="">Teste</label><br />
-        <md-radio-group formControlName="status">
-          <md-radio-button value="1">Option 1</md-radio-button>
-          <md-radio-button value="2">Option 2</md-radio-button>
-        </md-radio-group>
+        <label for="">Teste</label>
+        <br />
+        <mat-radio-group formControlName="status">
+          <mat-radio-button value="1">Option 1</mat-radio-button>
+          <mat-radio-button value="2">Option 2</mat-radio-button>
+        </mat-radio-group>
         <div class="mat-input-subscript-wrapper">
-          <md-error *ngIf="nextInvalidError('status','required')" i18n>This field is required</md-error>
+          <mat-error *ngIf="nextInvalidError('status','required')" i18n>This field is required</mat-error>
         </div>
       </div>
     </div>
@@ -94,8 +95,8 @@
 
   <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="15px">
 
-    <button md-raised-button type="submit" [disabled]="!formIsValid()" color="primary" i18n>Save Form</button>
-    <button md-button (click)="onReset()" i18n>Reset Form</button>
+    <button mat-raised-button type="submit" [disabled]="!formIsValid()" color="primary" i18n>Save Form</button>
+    <button mat-button (click)="onReset()" i18n>Reset Form</button>
 
   </div>
 
