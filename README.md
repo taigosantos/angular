@@ -1,6 +1,6 @@
 # Angular Application
 
-Repositório com uma arquitetura completa base utilizando Angular a partir da versão 4+
+Repositório com uma arquitetura completa base utilizando Angular
 
 ## Exemplo da Aplicação
 
