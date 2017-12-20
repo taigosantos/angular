@@ -1,4 +1,4 @@
-# Angular Application
+# Angular Application =]
 
 Repositório com uma arquitetura completa base utilizando Angular
 
